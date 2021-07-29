@@ -1,10 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+/*Global Variables*/
 $main-font: 'Montserrat', sans-serif;
-
-h1 {
+$main-color: #181818;
+$box-color: #262a2b;
+/*Typography*/
+body{
     font-family: $main-font;
-    font-size: 44px;
-    line-height: 45px;
-    color: red;
+}
+/*bootstrap clasess rest */
+.container-fluid{
+    padding: 0 60px;
+}
+/* Header */
+.main-header{
+    background-color: $main-color;
+    padding: 25px 0;
+    &--nav-menu{
+        ul{
+            padding-left: 0;
+            list-style: none;
+            li{
+                display: inline-block;
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+/* Home first section */
+#home{
+    &-top{
+        background: $main-color;
+        position: relative;
+        .card-wrapper{
+            min-height: 900px;
+            background-image: url('../../img/home-bg2.png');
+            background-position: center left;
+            background-size: cover;
+            border-radius: 50px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: stretch;
+            &--textbox{
+                display: flex;
+                align-items: center;
+                background-color: rgba(255,255,255,0.5);
+            }
+            &--img{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+            }
+        }
+    }
+    &-bottom{
+        position: relative;
+        .bottom-text{
+            text-align: center;
+        }
+    }
+}
+/*Cities slider*/
+#cities-slider{
+    .cities-slider--city{
+        &--top{
+            min-height: 670px;
+            background-image: url('../../img/slider-new-york.png');
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+        }
+        &--bottom{
+            background-color: $main-color;
+            color: #fff;
+            padding-top: 100px;
+            .cities-slider--city--bottom__card{
+                background-color: $box-color;
+                border-radius: 50px;
+                text-align: center;
+                padding-top: 50px;
+                padding-left: 40px;
+            }
+        }
+    }
+}
+#cities-footer{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 80px;
 }

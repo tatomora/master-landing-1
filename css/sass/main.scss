@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 /*Global Variables*/
 $main-font: 'Montserrat', sans-serif;
 $main-color: #181818;
@@ -69,7 +70,6 @@ body{
     .cities-slider--city{
         &--top{
             min-height: 670px;
-            background-image: url('../../img/slider-new-york.png');
             background-position: center;
             background-size: cover;
             display: flex;
@@ -87,9 +87,47 @@ body{
                 padding-left: 40px;
             }
         }
+        .city--new-york{
+            background-image: url('../../img/slider-new-york.png');
+        }
+        .city--miami{
+            background-image: url('../../img/slider-miami.png');
+        }
+        .city--madrid{
+            background-image: url('../../img/slider-madrid.png');
+        }
+        .city--others{
+            background-image: url('../../img/slider-others.png');
+        }
     }
 }
-#cities-footer{
+
+#travel{
+    #travel--top{
+        background-color: $main-color;
+        .travel-banner{
+            min-height: 720px;
+            background-image: url("../../img/travel-banner.png");
+            background-position: center;
+            background-size: cover;
+            border-radius: 50px;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            align-items: stretch;
+            &--box{
+                display: flex;
+                align-items: center;
+                background-color: rgba(255,255,255,0.5);
+                width: 50%;
+
+            }
+        }
+    }
+}
+
+
+#footer{
     text-align: center;
     padding-top: 150px;
     padding-bottom: 80px;

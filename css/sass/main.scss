@@ -103,7 +103,7 @@ body{
 }
 
 #travel{
-    #travel--top{
+    &--top{
         background-color: $main-color;
         .travel-banner{
             min-height: 720px;
@@ -123,6 +123,91 @@ body{
 
             }
         }
+    }
+    &--bottom{
+        background-color: $main-color;
+        color: #fff;
+    }
+}
+#services{
+    &--top{
+        background-color: $main-color;
+        .services-banner{
+            min-height: 720px;
+            background-image: url("../../img/services-bg.png");
+            background-position: center;
+            background-size: cover;
+            border-radius: 50px;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            align-items: stretch;
+            &--box{
+                display: flex;
+                align-items: center;
+                background-color: rgba(255,255,255,0.5);
+                width: 50%;
+
+            }
+        }
+    }
+    &--bottom{
+        background-color: $main-color;
+        color: #fff;
+    }
+}
+#protection{
+    &--top{
+        background-color: $main-color;
+        .protection-banner{
+            min-height: 720px;
+            background-image: url("../../img/protection.png");
+            background-position: center;
+            background-size: cover;
+            border-radius: 50px;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            align-items: stretch;
+            &--box{
+                display: flex;
+                align-items: center;
+                background-color: rgba(255,255,255,0.5);
+                width: 50%;
+
+            }
+        }
+    }
+    &--bottom{
+        background-color: $main-color;
+        color: #fff;
+    }
+}
+#benefits{
+    &--top{
+        background-color: $main-color;
+        .benefits-banner{
+            min-height: 720px;
+            background-image: url("../../img/benefits.png");
+            background-position: center;
+            background-size: cover;
+            border-radius: 50px;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            align-items: stretch;
+            &--box{
+                display: flex;
+                align-items: center;
+                background-color: rgba(255,255,255,0.5);
+                width: 50%;
+
+            }
+        }
+    }
+    &--bottom{
+        background-color: $main-color;
+        color: #fff;
     }
 }
 

@@ -93,10 +93,10 @@ body {
   background-image: url("../../img/slider-others.png");
 }
 
-#travel #travel--top {
+#travel--top {
   background-color: #181818;
 }
-#travel #travel--top .travel-banner {
+#travel--top .travel-banner {
   min-height: 720px;
   background-image: url("../../img/travel-banner.png");
   background-position: center;
@@ -107,11 +107,90 @@ body {
   display: flex;
   align-items: stretch;
 }
-#travel #travel--top .travel-banner--box {
+#travel--top .travel-banner--box {
   display: flex;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.5);
   width: 50%;
+}
+#travel--bottom {
+  background-color: #181818;
+  color: #fff;
+}
+
+#services--top {
+  background-color: #181818;
+}
+#services--top .services-banner {
+  min-height: 720px;
+  background-image: url("../../img/services-bg.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+}
+#services--top .services-banner--box {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 50%;
+}
+#services--bottom {
+  background-color: #181818;
+  color: #fff;
+}
+
+#protection--top {
+  background-color: #181818;
+}
+#protection--top .protection-banner {
+  min-height: 720px;
+  background-image: url("../../img/protection.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+}
+#protection--top .protection-banner--box {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 50%;
+}
+#protection--bottom {
+  background-color: #181818;
+  color: #fff;
+}
+
+#benefits--top {
+  background-color: #181818;
+}
+#benefits--top .benefits-banner {
+  min-height: 720px;
+  background-image: url("../../img/benefits.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+}
+#benefits--top .benefits-banner--box {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 50%;
+}
+#benefits--bottom {
+  background-color: #181818;
+  color: #fff;
 }
 
 #footer {

@@ -15,8 +15,14 @@ body{
 /* Header */
 .main-header{
     background-color: $main-color;
-    padding: 25px 0;
+    padding: 30px 0;
+    .row{
+        align-items: center;
+    }
     &--nav-menu{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
         ul{
             padding-left: 0;
             list-style: none;
@@ -25,6 +31,17 @@ body{
                 a{
                     text-decoration: none;
                     color: #fff;
+                    padding: 10px 15px;
+                    font-size: 22px;
+                    line-height: 25px;
+                    transition: all .5s;
+                    border: 2px solid $main-color;
+                    border-radius: 20px;
+                    font-weight: 300;
+                    &:hover{
+                        border-color: #fff;
+                        background-color: #3a3a3a;
+                    }
                 }
             }
         }
@@ -34,14 +51,15 @@ body{
 /* Home first section */
 #home{
     &-top{
+        max-height: 660px;
         background: $main-color;
         position: relative;
         .card-wrapper{
-            min-height: 900px;
+            min-height: 800px;
             background-image: url('../../img/home-bg2.png');
             background-position: center left;
             background-size: cover;
-            border-radius: 50px;
+            border-radius: 40px;
             position: relative;
             overflow: hidden;
             display: flex;
@@ -50,6 +68,28 @@ body{
                 display: flex;
                 align-items: center;
                 background-color: rgba(255,255,255,0.5);
+                padding-left: 50px;
+                max-width: 50%;
+            }
+            .card-wrapper--texbox--group__title{
+                    font-size: 37px;
+                    line-height: 47px;
+                    margin-bottom: 40px;
+                
+            }
+            .card-wrapper--texbox--group__btn{
+                background-color: $main-color;
+                font-size: 24px;
+                padding: 5px 45px;
+                font-weight: 300;
+                color: #fff;
+                border: 2px solid $main-color;
+                border-radius: 20px;
+                transition: all .5s;
+                &:hover{
+                    background-color: #3a3a3a;
+                    border-color: #fff;
+                }
             }
             &--img{
                 position: absolute;
@@ -60,8 +100,31 @@ body{
     }
     &-bottom{
         position: relative;
+        padding-bottom: 80px;
         .bottom-text{
             text-align: center;
+            &--img{
+                display: block;
+                text-align: left;
+                position: relative;
+                left: 0;
+                margin-bottom: 70px;
+                img{
+                    max-height: 385px;
+                }
+            }
+            &--title{
+                font-size: 36px;
+                line-height: 43px;
+                font-weight: 500;
+                margin-bottom: 20px;
+            }
+            &--text{
+                font-size: 35px;
+                line-height: 43px;
+                font-weight: 200;
+                margin-bottom: 20px;
+            }
         }
     }
 }
@@ -103,8 +166,18 @@ body{
 }
 
 #travel{
+    .travel-panel--icon{
+        img{
+            max-height: 200px;
+        }
+    }
     &--top{
-        background-color: $main-color;
+        max-height: 660px;
+        background: $main-color;
+        position: relative; max-height: 660px;
+        background: $main-color;
+        position: relative;
+        padding-top: 20px;
         .travel-banner{
             min-height: 720px;
             background-image: url("../../img/travel-banner.png");
@@ -119,14 +192,164 @@ body{
                 display: flex;
                 align-items: center;
                 background-color: rgba(255,255,255,0.5);
+                padding-left: 80px;
                 width: 50%;
-
+                max-width: 50%;
+            }
+            .travel-banner--box--group__title{
+                font-size: 51px;
+                line-height: 63px;
+                margin-bottom: 40px;
+                font-weight: 500;
+            }
+        }
+    }
+    &--mid{
+        padding-top: 180px;
+        padding-bottom: 40px;
+        .travel-panel{
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+            .col-3{
+                text-align: center;
+            }
+            .collapse span, .show span, .travel-panel--info__text{
+                font-size: 23px;
+                line-height: 27px;
+                font-weight: 300;
+            }
+            .collapse{
+                border: none;
+            }
+            button{
+                border: none;
+                background-color: #fff;
+                display: block;
+                position: relative;
+                text-align: center;
+                width: 100%;
+                transition: all .5s;
+                &:before{
+                    content: '';
+                    height: 10px;
+                    width: 80%;
+                    background-color: $main-color;
+                    opacity: .1;
+                    position: absolute;
+                    top: 40%;
+                    left: 10%;
+                    border-radius: 50px;
+                }
+                &[aria-expanded="true"]{
+                    img{
+                        transform: rotate(0deg);
+                    }
+                }
+                img{
+                    max-height: 50px;
+                    transform: rotate(180deg);
+                }
+            }
+            &--info{
+                min-height: 341px;
+                &__title{
+                    font-size: 38px;
+                    line-height: 43px;
+                    font-weight: 500;
+                    margin-bottom: 40px;
+                    position: relative;
+                    &:after{
+                        content: '';
+                        height: 1px;
+                        width: 118px;
+                        background-color: $main-color;
+                        position: absolute;
+                        left: 0;
+                        bottom: -20px;
+                        opacity: 0.5;
+                    }
+                }
+                &__text{
+                    margin-bottom: 40px;
+                }
             }
         }
     }
     &--bottom{
         background-color: $main-color;
         color: #fff;
+        padding-top: 180px;
+        padding-bottom: 40px;
+        .travel-panel{
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+            .col-3{
+                text-align: center;
+            }
+            .collapse span, .show span, .travel-panel--info__text{
+                font-size: 23px;
+                line-height: 27px;
+                font-weight: 300;
+            }
+            .collapse{
+                border: none;
+            }
+            button{
+                border: none;
+                background-color: $main-color;
+                display: block;
+                position: relative;
+                text-align: center;
+                width: 100%;
+                transition: all .5s;
+                &:before{
+                    content: '';
+                    height: 10px;
+                    width: 80%;
+                    background-color: #3a3a3a;
+                    position: absolute;
+                    top: 40%;
+                    left: 10%;
+                    border-radius: 50px;
+                    z-index: 0;
+                }
+                &[aria-expanded="true"]{
+                    img{
+                        transform: rotate(180deg);
+                    }
+                }
+                img{
+                    max-height: 50px;
+                    position: relative;
+                    z-index: 1;
+                }
+            }
+            &--info{
+                min-height: 341px;
+                &__title{
+                    font-size: 38px;
+                    line-height: 43px;
+                    font-weight: 500;
+                    margin-bottom: 40px;
+                    position: relative;
+                    &:after{
+                        content: '';
+                        height: 1px;
+                        width: 118px;
+                        background-color: $main-color;
+                        position: absolute;
+                        left: 0;
+                        bottom: -20px;
+                        opacity: 0.5;
+                    }
+                }
+                &__text{
+                    margin-bottom: 40px;
+                }
+            }
+        }
     }
 }
 #services{
@@ -154,6 +377,7 @@ body{
     &--bottom{
         background-color: $main-color;
         color: #fff;
+        
     }
 }
 #protection{

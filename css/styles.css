@@ -13,7 +13,15 @@ body {
 /* Header */
 .main-header {
   background-color: #181818;
-  padding: 25px 0;
+  padding: 30px 0;
+}
+.main-header .row {
+  align-items: center;
+}
+.main-header--nav-menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
 }
 .main-header--nav-menu ul {
   padding-left: 0;
@@ -25,19 +33,31 @@ body {
 .main-header--nav-menu ul li a {
   text-decoration: none;
   color: #fff;
+  padding: 10px 15px;
+  font-size: 22px;
+  line-height: 25px;
+  transition: all 0.5s;
+  border: 2px solid #181818;
+  border-radius: 20px;
+  font-weight: 300;
+}
+.main-header--nav-menu ul li a:hover {
+  border-color: #fff;
+  background-color: #3a3a3a;
 }
 
 /* Home first section */
 #home-top {
+  max-height: 660px;
   background: #181818;
   position: relative;
 }
 #home-top .card-wrapper {
-  min-height: 900px;
+  min-height: 800px;
   background-image: url("../../img/home-bg2.png");
   background-position: center left;
   background-size: cover;
-  border-radius: 50px;
+  border-radius: 40px;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -47,6 +67,27 @@ body {
   display: flex;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.5);
+  padding-left: 50px;
+  max-width: 50%;
+}
+#home-top .card-wrapper .card-wrapper--texbox--group__title {
+  font-size: 37px;
+  line-height: 47px;
+  margin-bottom: 40px;
+}
+#home-top .card-wrapper .card-wrapper--texbox--group__btn {
+  background-color: #181818;
+  font-size: 24px;
+  padding: 5px 45px;
+  font-weight: 300;
+  color: #fff;
+  border: 2px solid #181818;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+#home-top .card-wrapper .card-wrapper--texbox--group__btn:hover {
+  background-color: #3a3a3a;
+  border-color: #fff;
 }
 #home-top .card-wrapper--img {
   position: absolute;
@@ -55,9 +96,32 @@ body {
 }
 #home-bottom {
   position: relative;
+  padding-bottom: 80px;
 }
 #home-bottom .bottom-text {
   text-align: center;
+}
+#home-bottom .bottom-text--img {
+  display: block;
+  text-align: left;
+  position: relative;
+  left: 0;
+  margin-bottom: 70px;
+}
+#home-bottom .bottom-text--img img {
+  max-height: 385px;
+}
+#home-bottom .bottom-text--title {
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+#home-bottom .bottom-text--text {
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 200;
+  margin-bottom: 20px;
 }
 
 /*Cities slider*/
@@ -93,8 +157,17 @@ body {
   background-image: url("../../img/slider-others.png");
 }
 
+#travel .travel-panel--icon img {
+  max-height: 200px;
+}
 #travel--top {
-  background-color: #181818;
+  max-height: 660px;
+  background: #181818;
+  position: relative;
+  max-height: 660px;
+  background: #181818;
+  position: relative;
+  padding-top: 20px;
 }
 #travel--top .travel-banner {
   min-height: 720px;
@@ -111,11 +184,158 @@ body {
   display: flex;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.5);
+  padding-left: 80px;
   width: 50%;
+  max-width: 50%;
+}
+#travel--top .travel-banner .travel-banner--box--group__title {
+  font-size: 51px;
+  line-height: 63px;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+#travel--mid {
+  padding-top: 180px;
+  padding-bottom: 40px;
+}
+#travel--mid .travel-panel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+#travel--mid .travel-panel .col-3 {
+  text-align: center;
+}
+#travel--mid .travel-panel .collapse span, #travel--mid .travel-panel .show span, #travel--mid .travel-panel .travel-panel--info__text {
+  font-size: 23px;
+  line-height: 27px;
+  font-weight: 300;
+}
+#travel--mid .travel-panel .collapse {
+  border: none;
+}
+#travel--mid .travel-panel button {
+  border: none;
+  background-color: #fff;
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  transition: all 0.5s;
+}
+#travel--mid .travel-panel button:before {
+  content: "";
+  height: 10px;
+  width: 80%;
+  background-color: #181818;
+  opacity: 0.1;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  border-radius: 50px;
+}
+#travel--mid .travel-panel button[aria-expanded=true] img {
+  transform: rotate(0deg);
+}
+#travel--mid .travel-panel button img {
+  max-height: 50px;
+  transform: rotate(180deg);
+}
+#travel--mid .travel-panel--info {
+  min-height: 341px;
+}
+#travel--mid .travel-panel--info__title {
+  font-size: 38px;
+  line-height: 43px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  position: relative;
+}
+#travel--mid .travel-panel--info__title:after {
+  content: "";
+  height: 1px;
+  width: 118px;
+  background-color: #181818;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  opacity: 0.5;
+}
+#travel--mid .travel-panel--info__text {
+  margin-bottom: 40px;
 }
 #travel--bottom {
   background-color: #181818;
   color: #fff;
+  padding-top: 180px;
+  padding-bottom: 40px;
+}
+#travel--bottom .travel-panel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+#travel--bottom .travel-panel .col-3 {
+  text-align: center;
+}
+#travel--bottom .travel-panel .collapse span, #travel--bottom .travel-panel .show span, #travel--bottom .travel-panel .travel-panel--info__text {
+  font-size: 23px;
+  line-height: 27px;
+  font-weight: 300;
+}
+#travel--bottom .travel-panel .collapse {
+  border: none;
+}
+#travel--bottom .travel-panel button {
+  border: none;
+  background-color: #181818;
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  transition: all 0.5s;
+}
+#travel--bottom .travel-panel button:before {
+  content: "";
+  height: 10px;
+  width: 80%;
+  background-color: #3a3a3a;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  border-radius: 50px;
+  z-index: 0;
+}
+#travel--bottom .travel-panel button[aria-expanded=true] img {
+  transform: rotate(180deg);
+}
+#travel--bottom .travel-panel button img {
+  max-height: 50px;
+  position: relative;
+  z-index: 1;
+}
+#travel--bottom .travel-panel--info {
+  min-height: 341px;
+}
+#travel--bottom .travel-panel--info__title {
+  font-size: 38px;
+  line-height: 43px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  position: relative;
+}
+#travel--bottom .travel-panel--info__title:after {
+  content: "";
+  height: 1px;
+  width: 118px;
+  background-color: #181818;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  opacity: 0.5;
+}
+#travel--bottom .travel-panel--info__text {
+  margin-bottom: 40px;
 }
 
 #services--top {

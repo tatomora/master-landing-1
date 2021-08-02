@@ -5,17 +5,875 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <link rel="stylesheet" href="/css/styles.css">
     <title>Banco BHD Leon</title>
 </head>
 <body>
     <header class="main-header">
-        <div class="container">
-            <h2>header</h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6">
+                    <div class="main-header--logo">
+                        <img src="img/header-logo.png" alt="Banco de Leon Logo">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <nav class="main-header--nav-menu">
+                        <ul>
+                            <li class="main-heder--nav-menu__item"><a href="#home">Home</a></li>
+                            <li class="main-heder--nav-menu__item"><a href="#travel">+ Viajes</a></li>
+                            <li class="main-heder--nav-menu__item"><a href="#services">+ Servicios VIP</a></li>
+                            <li class="main-heder--nav-menu__item"><a href="#protection">+ Protecciones</a></li>
+                            <li class="main-heder--nav-menu__item"><a href="#benefits">+ Beneficios</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
-    <h1>Hello worlds</h1>
+    <section id="home">
+        <div id="home-top">
+            <div class="container-fluid">
+                <div class="card-wrapper">
+                    <div class="card-wrapper--textbox">
+                        <div class="card-wrapper--texbox--group">
+                            <h3 class="card-wrapper--texbox--group__title">Disfruta el mundo de privilegios y
+                                experiencias priceless que te mereces</h3>
+                            <button class="card-wrapper--texbox--group__btn">Aplica hoy</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="home-bottom">
+            <div class="container-fluid">
+                <div class="bottom-text">
+                    <div class="bottom-text--img animate__animated animate__backInLeft">
+                        <img src="img/cards.png" alt="">t
+                    </div>
+                    <h2 class="bottom-text--title">Tus tarjetas Platinum y Black BHD León Mastercard</h2>
+                    <p class="bottom-text--text">te ofrecen increíbles ofertas y beneficios al viajar a tus lugares favoritos en Estados Unidos, Europa, Asia o cualquier lugar del mundo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cities">
+        <div id="cities-slider" class="glider">
+            <!--New york-->
+            <div class="cities-slider--city">
+                <div class="cities-slider--city--top city--new-york">
+                    <div class="container-fluid">
+                        <div class="cities-wrapper">
+                            <span class="cities-slider--city--top__icon"><img src="img/big-pin.png" alt=""></span>
+                            <h1 class="cities-slider--city--top__title">New York</h1>
+                        </div>
+                        <div class="cities-slider--arrows">
+                            <img src="img/arrow-left.png" alt="" class="arrow arrow-left">
+                            <img src="img/arrow-right.png" alt="" class="arrow arrow-right">
+                        </div>
+                    </div>
+                </div>
+                <div class="cities-slider--city--bottom">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="cities-slider--city--bottom__card">
+                                    <div class="card-inner">
+                                        <div class="card-front-text">
+                                            <div class="card-icon"><img src="img/map.png" alt=""></div>
+                                            <div class="card-title">Priceless<br>Cities</div>
+                                            <div class="card-text">Disfruta experiencias exclusivas
+                                                en New York.</div>
+                                        </div>
+                                        <div class="card-back-text">
+                                            <div class="back-top">
+                                                <span class="name">Miami, Florida</span>
+                                                <h5 class="frace">Treat yoursel to a VIP ice cream party at MadLab</h5>
+                                            </div>
+                                            <div class="back-bottom">
+                                                <span class="name">Miami, Florida</span>
+                                                <h5 class="frace">Take a private curated tour of the Rubell Museum</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="cities-slider--city--bottom__card">
+                                    <div class="card-inner">
+                                        <div class="card-front-text">
+                                            <div class="card-icon"><img src="img/suitcase.png" alt=""></div>
+                                            <div class="card-title">Mastercard protectioner<br>
+                                                Rewards</div>
+                                            <div class="card-text">Recibe rembolsos automáticos por tus compras en New York.</div>
+                                        </div>
+                                        <div class="card-back-text">
+                                            <div class="back-top">
+                                                <span class="name">Estados Unidos</span>
+                                                <h5 class="frace">Bergdorf Goodman</h5>
+                                            </div>
+                                            <div class="back-bottom">
+                                                <span class="name">Estados Unidos</span>
+                                                <h5 class="frace">Mandarin Oriental, Miami</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="cities-slider--city--bottom__card">
+                                    <div class="card-inner">
+                                        <div class="card-front-text">
+                                            <div class="card-icon"><img src="img/pin.png" alt=""></div>
+                                            <div class="card-title">Loungekey<br></div>
+                                            <div class="card-text">Viaja siempre al mejor estilo VIP en New York.</div>
+                                        </div>
+                                        <div class="card-back-text">
+                                            <div class="back-top last">
+                                                <span class="name">Estados Unidos</span>
+                                                <h5 class="frace">Central Terminal<br>Concourse E</h5>
+                                                <div class="furnature">
+                                                    <img src="img/furnature.png" alt="">
+                                                    <span class="room">Lounges</span>
+                                                </div>
+                                            </div>
+                                            <div class="back-bottom last">
+                                                <span class="name">Estados Unidos</span>
+                                                <h5 class="frace">Central Terminal<br>Concourse F</h5>
+                                                <div class="furnature">
+                                                    <img src="img/furnature.png" alt="">
+                                                    <span class="room">Lounges</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cities-footer footer">
+                    <div class="container-fluid">
+                        <div class="cities-footer--logo">
+                            <img src="img/footer-logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Miami -->
+            <div class="cities-slider--city">
+                <div class="cities-slider--city--top city--miami">
+                    <div class="container-fluid">
+                        <div class="cities-wrapper">
+                            <span class="cities-slider--city--top__icon"><img src="img/big-pin.png" alt=""></span>
+                            <h1 class="cities-slider--city--top__title">Miami</h1>
+                        </div>
+                        <div class="cities-slider--arrows">
+                            <img src="img/arrow-left.png" alt="" class="arrow arrow-left">
+                            <img src="img/arrow-right.png" alt="" class="arrow arrow-right">
+                        </div>
+                    </div>
+                </div>
+                <div class="cities-slider--city--bottom">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="cities-slider--city--bottom__card">
+                                    <div class="card-inner">
+                                        <div class="card-front-text">
+                                            <div class="card-icon"><img src="img/map.png" alt=""></div>
+                                            <div class="card-title">Priceless<br>Cities</div>
+                                            <div class="card-text">Disfruta experiencias exclusivas
+                                                en New York.</div>
+                                        </div>
+                                        <div class="card-back-text">
+                                            <div class="back-top">
+                                                <span class="name">Miami, Florida</span>
+                                                <h5 class="frace">Treat yoursel to a VIP ice cream party at MadLab</h5>
+                                            </div>
+                                            <div class="back-bottom">
+                                                <span class="name">Miami, Florida</span>
+                                                <h5 class="frace">Take a private curated tour of the Rubell Museum</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="cities-slider--city--bottom__card">
+                                    <div class="card-inner">
+                                        <div class="card-front-text">
+                                            <div class="card-icon"><img src="img/suitcase.png" alt=""></div>
+                                            <div class="card-title">Mastercard protectioner<br>
+                                                Rewards</div>
+                                            <div class="card-text">Recibe rembolsos automáticos por tus compras en New York.</div>
+                                        </div>
+                                        <div class="card-back-text">
+                                            <div class="back-top">
+                                                <span class="name">Miami, Florida</span>
+                                                <h5 class="frace">Treat yoursel to a VIP ice cream party at MadLab</h5>
+                                            </div>
+                                            <div class="back-bottom">
+                                                <span class="name">Miami, Florida</span>
+                                                <h5 class="frace">Take a private curated tour of the Rubell Museum</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="cities-slider--city--bottom__card">
+                                    <div class="card-inner">
+                                        <div class="card-front-text">
+                                            <div class="card-icon"><img src="img/pin.png" alt=""></div>
+                                            <div class="card-title">Loungekey<br></div>
+                                            <div class="card-text">Viaja siempre al mejor estilo VIP en New York.</div>
+                                        </div>
+                                        <div class="card-back-text">
+                                            <div class="back-top last">
+                                                <span class="name">Estados Unidos</span>
+                                                <h5 class="frace">Central Terminal<br>Concourse E</h5>
+                                                <div class="furnature">
+                                                    <img src="img/furnature.png" alt="">
+                                                    <span class="room">Lounges</span>
+                                                </div>
+                                            </div>
+                                            <div class="back-bottom last">
+                                                <span class="name">Estados Unidos</span>
+                                                <h5 class="frace">Central Terminal<br>Concourse F</h5>
+                                                <div class="furnature">
+                                                    <img src="img/furnature.png" alt="">
+                                                    <span class="room">Lounges</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Madrid-->
+            <div class="cities-slider--city">
+                <div class="cities-slider--city--top city--madrid">
+                    <div class="container-fluid">
+                        <div class="cities-wrapper">
+                            <span class="cities-slider--city--top__icon"><img src="img/big-pin.png" alt=""></span>
+                            <h1 class="cities-slider--city--top__title">Madrid</h1>
+                        </div>
+                        <div class="cities-slider--arrows">
+                            <img src="img/arrow-left.png" alt="" class="arrow arrow-left">
+                            <img src="img/arrow-right.png" alt="" class="arrow arrow-right">
+                        </div>
+                    </div>
+                </div>
+                <div class="cities-slider--city--bottom">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="cities-slider--city--bottom__card">
+                                    <div class="card-inner">
+                                        <div class="card-front-text">
+                                            <div class="card-icon"><img src="img/map.png" alt=""></div>
+                                            <div class="card-title">Priceless<br>Cities</div>
+                                            <div class="card-text">Disfruta experiencias exclusivas
+                                                en New York.</div>
+                                        </div>
+                                        <div class="card-back-text">
+                                            <div class="back-top">
+                                                <span class="name">Madrid, España</span>
+                                                <h5 class="frace">Hotel Week</h5>
+                                            </div>
+                                            <div class="back-bottom">
+                                                <span class="name">Madrid, España</span>
+                                                <h5 class="frace">Asociación de Amigos de la Repostería</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="cities-slider--city--bottom__card">
+                                    <div class="card-inner">
+                                        <div class="card-front-text">
+                                            <div class="card-icon"><img src="img/suitcase.png" alt=""></div>
+                                            <div class="card-title">Mastercard Traveler<br>
+                                                Rewards</div>
+                                            <div class="card-text">Recibe rembolsos automáticos por tus compras en New York.</div>
+                                        </div>
+                                        <div class="card-back-text">
+                                            <div class="back-top">
+                                                <span class="name">Madrid, España</span>
+                                                <h5 class="frace">As one of the most important luxury women´s fashion</h5>
+                                            </div>
+                                            <div class="back-bottom">
+                                                <span class="name">Madrid, España</span>
+                                                <h5 class="frace">The exclusive Heritage
+                                                    Madrid Hotel </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="cities-slider--city--bottom__card">
+                                    <div class="card-inner">
+                                        <div class="card-front-text">
+                                            <div class="card-icon"><img src="img/pin.png" alt=""></div>
+                                            <div class="card-title">Loungekey<br></div>
+                                            <div class="card-text">Viaja siempre al mejor estilo VIP en New York.</div>
+                                        </div>
+                                        <div class="card-back-text">
+                                            <div class="back-top last">
+                                                <span class="name">Estados Unidos</span>
+                                                <h5 class="frace">Terminal 1</h5>
+                                                <div class="furnature">
+                                                    <img src="img/furnature.png" alt="">
+                                                    <span class="room">Lounges</span>
+                                                </div>
+                                            </div>
+                                            <div class="back-bottom last">
+                                                <span class="name">Estados Unidos</span>
+                                                <h5 class="frace">Terminal 2</h5>
+                                                <div class="furnature">
+                                                    <img src="img/furnature.png" alt="">
+                                                    <span class="room">Lounges</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Others-->
+            <div class="cities-slider--city">
+                <div class="cities-slider--city--top city--others">
+                    <div class="container-fluid">
+                        <div class="cities-wrapper">
+                            <span class="cities-slider--city--top__icon"><img src="img/big-pin.png" alt=""></span>
+                            <h1 class="cities-slider--city--top__title">Otras Ciudades</h1>
+                        </div>
+                        <div class="cities-slider--arrows">
+                            <img src="img/arrow-left.png" alt="" class="arrow arrow-left">
+                            <img src="img/arrow-right.png" alt="" class="arrow arrow-right">
+                        </div>
+                    </div>
+                </div>
+                <div class="cities-slider--city--bottom">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="cities-slider--city--bottom__card">
+                                    <div class="card-inner">
+                                        <div class="card-front-text">
+                                            <div class="card-icon"><img src="img/map.png" alt=""></div>
+                                            <div class="card-title">Priceless<br>Cities</div>
+                                            <div class="card-text">Disfruta experiencias exclusivas
+                                                en New York.</div>
+                                        </div>
+                                        <div class="card-back-text">
+                                            <div class="back-top">
+                                                <span class="name">París Francia</span>
+                                                <h5 class="frace">Le Fooding</h5>
+                                            </div>
+                                            <div class="back-bottom">
+                                                <span class="name">Roma, Italia</span>
+                                                <h5 class="frace">Local Aromas</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="cities-slider--city--bottom__card">
+                                    <div class="card-inner">
+                                        <div class="card-front-text">
+                                            <div class="card-icon"><img src="img/suitcase.png" alt=""></div>
+                                            <div class="card-title">Mastercard Traveler<br>
+                                                Rewards</div>
+                                            <div class="card-text">Recibe rembolsos automáticos por tus compras en New York.</div>
+                                        </div>
+                                        <div class="card-back-text">
+                                            <div class="back-top">
+                                                <span class="name">París, Francia</span>
+                                                <h5 class="frace">Fauchon Grand Café</h5>
+                                            </div>
+                                            <div class="back-bottom">
+                                                <span class="name">Roma, Italia</span>
+                                                <h5 class="frace">Hotel de la Ville, Rome</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="cities-slider--city--bottom__card">
+                                    <div class="card-inner">
+                                        <div class="card-front-text">
+                                            <div class="card-icon"><img src="img/pin.png" alt=""></div>
+                                            <div class="card-title">Loungekey<br></div>
+                                            <div class="card-text">Viaja siempre al mejor estilo VIP en New York.</div>
+                                        </div>
+                                        <div class="card-back-text">
+                                            <div class="back-top last">
+                                                <span class="name">Estados Unidos</span>
+                                                <h5 class="frace">Terminal 1</h5>
+                                                <div class="furnature">
+                                                    <img src="img/furnature.png" alt="">
+                                                    <span class="room">Lounges</span>
+                                                </div>
+                                            </div>
+                                            <div class="back-bottom last">
+                                                <span class="name">Estados Unidos</span>
+                                                <h5 class="frace">Terminal 2E</h5>
+                                                <div class="furnature">
+                                                    <img src="img/furnature.png" alt="">
+                                                    <span class="room">Lounges</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="travel">
+        <div id="travel--top">
+            <div class="container-fluid">
+                <div class="travel-banner">
+                    <div class="travel-banner--box">
+                        <div class="travel-banner--box--group">
+                            <h3 class="travel-banner--box--group__title">Viajes VIP<br>Inolvidables</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="travel--mid">
+            <div class="container-fluid">
+                <div class="travel-panel">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="travel-panel--icon">
+                                <img src="img/mountain.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="travel-panel--info">
+                                <h4 class="travel-panel--info__title">BHD León Viajes.</h4>
+                                <h5 class="travel-panel--info__text">Esta es la forma más conveniente de redimir las Estrellas BHD León que acumulaste con Mastercard Black para que hagas el viaje que te mereces.</h5>
+                                <div class="collapse" id="collapseExample">
+                                    <span>
+                                        Nuestro Centro de Asistencia Local de Viajes realizará los trámites de canje de Estrellas BHD León para planificar el viaje que deseas y comprar pasajes en la línea aérea de tu preferencia sin restricciones de fechas. También puedes realizar excursiones y reservación de hoteles locales e internacionales, cruceros, eventos y mucho más.
+                                    </span>>
+                                </div>
+                                <button  type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                    <img src="img/up-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="travel-panel">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="travel-panel--icon">
+                                <img src="img/airplane.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="travel-panel--info">
+                                <h4 class="travel-panel--info__title">Before Boarding.</h4>
+                                <h5 class="travel-panel--info__text">Tu Tarjeta Mastercard Black te ofrece los servicios exclusivos de Before Boarding en el Aeropuerto Internacional de Las Américas (AILA) y Aeropuerto Internacional El Cibao (STI).</h5>
+                                <div class="collapse" id="before">
+                                    <span>
+                                        <ul>
+                                            <li>Acceso a Sala VIP*</li>
+                                            <li>Tramites de migración.</li>
+                                            <li>Acceso por filtro de seguridad privado.</li>
+                                            <li>Acompañamiento a la zona de embarque.</li>
+                                            <li>Acompañamiento a la zona de embarque.</li>
+                                            <li>Recogida de equipaje.</li>
+                                        </ul>
+                                        Incluye diez (10) visitas gratuitas por año** por tarjetahabiente, a partir del 1 de febrero 2020 este beneficio será unicamente exclusivo para titulares (principales o adicionales) incluyendo solo acompañantes menores de 18 años***. Para las reservas realizadas antes de esta fecha aplican las condiciones actuales.
+Realiza tu reserva con 24 horas de antelación a través de beforeboarding.com *Acceso para la Sala Premium y Sala Caribe en AILA y Sala Zafiro en El Cibao. **la fecha de corte anual es cada 1 de julio. ***Si usas los servicios de salida y llegada habrás utilizado 2 visitas. Si vas acompañado, habrás utilizado tantas visitas como acompañantes viajen contigo. 
+                                    </span>
+                                </div>
+                                <button  type="button" data-bs-toggle="collapse" data-bs-target="#before" aria-expanded="false" aria-controls="collapseExample">
+                                    <img src="img/up-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="travel--bottom">
+            <div class="container-fluid">
+                <div class="travel-panel">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="travel-panel--icon">
+                                <img src="img/wifi.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="travel-panel--info">
+                                <h4 class="travel-panel--info__title">Wi-Fi Boingo</h4>
+                                <h5 class="travel-panel--info__text">Esta es la forma más conveniente de redimir las Estrellas BHD León que acumulaste con Mastercard Black para que hagas el viaje que te mereces.</h5>
+                                <div class="collapse" id="bhd">
+                                    <span>
+                                        Proporciona acceso global, gratuito e ilimitado después de inscribirse a su cuenta Boingo, en más de 1 millón de hotspots con velocidad superior al promedio de banda ancha, estos hotspots incluyen una red en aeropuertos, hoteles, restaurantes, escenarios, estadios, hubs de transporte y vuelos y te da acceso hasta para cuatro dispositivos.
+                                        Solo debes registrar tu Tarjeta Mastercard Black ya activada en <a href="https://mastercard.boingo.com">https://mastercard.boingo.com</a> para inscribirte al beneficio de Wi-Fi. Una vez inscrito recibirás instrucciones para descargar la aplicación WiFinder de Boingo y así tener acceso a la red.
+                                    </span>
+                                </div>
+                                <button type="button" data-bs-toggle="collapse" data-bs-target="#bhd" aria-expanded="false" aria-controls="collapseExample">
+                                    <img src="img/up-arrow-white.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="travel-panel">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="travel-panel--icon">
+                                <img src="img/stairs.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="travel-panel--info">
+                                <h4 class="travel-panel--info__title">Mastercard® Travel & Lifestyle Services.</h4>
+                                <h5 class="travel-panel--info__text">¿Deseas planear tus próximas vacaciones? Un asesor de Travel & Lifestyle Services de Mastercard está disponible 24 horas al día y te ayudará durante todo el viaje.</h5>
+                                <div class="collapse" id="stairs">
+                                    <span >
+                                        Recibe desayuno diario gratuito, upgrades en habitaciones*, early check-in/late check-out* y servicios especiales en más de 2,000 hoteles y resorts de 4 y 5 estrellas, alrededor del mundo. Además, ahorros y beneficios exclusivos en alquiler de autos, boletos aéreos, tours y cruceros. También cuentas con la plataforma digital para comprar reservar y comprar online tus tickets aéreos, hoteles, alquiler de auto, y todo lo demás que necesitas para tu viaje, en moneda local y en múltiples idiomas.
+
+<br><br>Ingresa a <a href="http://travel.mastercard.com">http://travel.mastercard.com</a> y prepara tus vacaciones.
+
+                                    </span>
+                                </div>
+                                <button type="button" data-bs-toggle="collapse" data-bs-target="#stairs" aria-expanded="false" aria-controls="collapseExample">
+                                    <img src="img/up-arrow-white.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div id="services--top">
+            <div class="container-fluid">
+                <div class="services-banner">
+                    <div class="services-banner--box">
+                        <div class="services-banner--box--group">
+                            <h3 class="services-banner--box--group__title">Un servicio
+                                <br>Inigualable</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="services--mid">
+            <div class="container-fluid">
+                <div class="services-panel">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="services-panel--icon">
+                                <img src="img/world.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="services-panel--info">
+                                <h4 class="services-panel--info__title">MasterCard Global Service.</h4>
+                                <h5 class="services-panel--info__text">Proporciona asistencia durante emergencias relacionada con la tarjeta en cualquier momento, desde cualquier lugar, por medio de una llamada telefónica gratuita.
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="services--bottom">
+            <div class="container-fluid">
+                <div class="services-panel">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="services-panel--icon">
+                                <img src="img/hand.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="services-panel--info">
+                                <h4 class="services-panel--info__title">Asistente Personal.</h4>
+                                <h5 class="services-panel--info__text">Tener tiempo libre para disfrutar no tiene precio. Por eso, Mastercard te proporciona asistencia las 24 hras del día, los 7 días de la semana para satisfacer cualquier solicitud de reservas en restaurantes, coordinación de experiencias especiales, información y reservas de entretenimiento, referencias, entre otros.</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="protection">
+        <div id="protection--top">
+            <div class="container-fluid">
+                <div class="protection-banner">
+                    <div class="protection-banner--box">
+                        <div class="protection-banner--box--group">
+                            <h3 class="protection-banner--box--group__title">La tranquilidad de estar protegido</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="protection--mid">
+            <div class="container-fluid">
+                <div class="protection-panel">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="protection-panel--icon">
+                                <img src="img/box.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="protection-panel--info">
+                                <h4 class="protection-panel--info__title">Garantia Extendida.</h4>
+                                <div class="collapse" id="waranty">
+                                    <span>
+                                        Protege tus compras con la cobertura de garantía extendida, hasta USD 2.500 por ocurrencia / USD 5.000 por 12 meses, de Mastercard Black. Esta cobertura proporciona cobertura extendida de los términos de la garantía original del fabricante en compras cubiertas hasta por 1 año después de que tanto la garantía original como la de la tienda y el año opcional de garantía han terminado, sin exceder 3 años. La compra debe ser pagada en su totalidad con tu tarjeta de crédito Mastercard Black.
+                                    </span>
+                                </div>
+                                <button type="button" data-bs-toggle="collapse" data-bs-target="#waranty" aria-expanded="false" aria-controls="collapseExample">
+                                    <img src="img/up-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="protection-panel">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="protection-panel--icon">
+                                <img src="img/shields.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="protection-panel--info">
+                                <h4 class="protection-panel--info__title">Protección contra  asaltos y
+                                    robos en cajeros automáticos.</h4>
+                                <div class="collapse" id="asalto">
+                                    <span>
+                                        Si un tarjeta hambiente MasterCard Black es víctima de un robo o asalto utilizando un cajero automático, esta protección reemplaza el efectivo robado hasta por USD 1.000 por ocurrencia/ USD 3.000 por 12 meses y de US$10,000 en caso de fallecimiento del titular producto del siniestro.
+                                    </span>
+                                </div>
+                                <button type="button" data-bs-toggle="collapse" data-bs-target="#asalto" aria-expanded="false" aria-controls="collapseExample">
+                                    <img src="img/up-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="protection-panel">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="protection-panel--icon">
+                                <img src="img/shield-lock.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="protection-panel--info">
+                                <h4 class="protection-panel--info__title">MasterAssist Black.</h4>
+                                <div class="collapse" id="assist">
+                                    <span>
+                                        La Mastercard Black cuenta con la seguridad y protección que ofrece cobertura de gastos médicos y dinero en efectivo para gastos de hospital. Gastos médicos hasta USD 150.000 hasta por 60 días consecutivos. El viaje debe haber sido pagado en su totalidad con tu tarjeta Black. Los gastos médicos aplican solo internacionalmente. Para descargar gratuitamente certificación de seguro internacional cuando solicites visado a países del Tratado Schengen pulsa aquí: <a href="https://www-180.aig.com/mc/regional/es" target="_blank">https://www-180.aig.com/mc/regional/es</a>
+                                    </span>
+                                </div>
+                                <button type="button" data-bs-toggle="collapse" data-bs-target="#assist" aria-expanded="false" aria-controls="collapseExample">
+                                    <img src="img/up-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="protection--bottom">
+            <div class="container-fluid">
+                <div class="protection-panel">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="protection-panel--icon">
+                                <img src="img/lock.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="protection-panel--info">
+                                <h4 class="protection-panel--info__title">Protección Contra Inconvenientes  de Viajes.</h4>
+                                <div class="collapse" id="inconvinience">
+                                    <span>
+                                        Mastercard Black cubre los gastos de viaje y acomodaciones, pagando por adelantado, si el viaje es repentinamente cancelado, hasta US$3,000, o si hay demoras o retraso, hasta US$200 (más de 4 horas) El viaje debe haber sido pagado en su totalidad con tu tarjeta de crédito Black.
+                                    </span>
+                                </div>
+                                <button  type="button" data-bs-toggle="collapse" data-bs-target="#inconvinience" aria-expanded="false" aria-controls="collapseExample">
+                                    <img src="img/up-arrow-white.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="protection-panel">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="protection-panel--icon">
+                                <img src="img/case.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="protection-panel--info">
+                                <h4 class="protection-panel--info__title">Protección de Equipaje.</h4>
+                                <div class="collapse" id="package">
+                                    <span>
+                                        Mastercard Black te ayuda a recuperar tu equipaje perdido con el apoyo directo de la aerolínea y cubre los gastos incurridos como resultado de demora hasta por US$600 o pérdida de equipaje hasta por US$3,000.Para obtener más información sobre los beneficios Mastercard, llama al 1.829.954.8445 o visita <a href="www.mastercard.com/do/black">www.mastercard.com/do/black</a> 
+Alertas de Consumo Entérate al instante de tus movimientos, controla mejor tus transacciones y detecta a tiempo cualquier consumo no autorizado con nuestro servicio de Alertas, a través del cual recibirás un correo electrónico con el detalle de las actividades realizadas con tu tarjeta de crédito.
+                                    </span>
+                                </div>
+                                <button  type="button" data-bs-toggle="collapse" data-bs-target="#package" aria-expanded="false" aria-controls="collapseExample">
+                                    <img src="img/up-arrow-white.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="protection-panel">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="protection-panel--icon">
+                                <img src="img/rental.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="protection-panel--info">
+                                <h4 class="protection-panel--info__title">Master Rental.</h4>
+                                <div class="collapse" id="rental">
+                                    <span>
+                                        Cuando alquilas un vehículo con Mastercard Black, recibes cobertura de USD 75.000 por daños al vehículo alquilado causados por colisión robo, incendio accidental y vandalismo, cuando la tarjetahabiente rechaza CDW (exención parcial de responsabilidad por daños de colisión) o LDW (aviso de salida de carril) de parte de la compañía de alquiler, alrededor del mundo hasta 60 días consecutivos.
+                                    </span>
+                                </div>
+                                <button  type="button" data-bs-toggle="collapse" data-bs-target="#rental" aria-expanded="false" aria-controls="collapseExample">
+                                    <img src="img/up-arrow-white.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="protection-panel">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="protection-panel--icon">
+                                <img src="img/shop.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="protection-panel--info">
+                                <h4 class="protection-panel--info__title">Protección de Compras.</h4>
+                                <div class="collapse" id="compras">
+                                    <span>
+                                        Compra confiada con Mastercard Black pues la mayoría de tus compras están protegidas en caso de robo o daño accidental durante 90 días posteriores a la fecha de compra indicada en el recibo de la tienda con un beneficio máximo de US$5,000 por incidente y un tope de US$20,000 por 12 meses. La compra debe ser pagada en su totalidad con tu tarjeta de crédito MasterCard Black.
+                                    </span>
+                                </div>
+                                <button  type="button" data-bs-toggle="collapse" data-bs-target="#compras" aria-expanded="false" aria-controls="collapseExample">
+                                    <img src="img/up-arrow-white.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="benefits">
+        <div id="benefits--top">
+            <div class="container-fluid">
+                <div class="benefits-banner">
+                    <div class="benefits-banner--box">
+                        <div class="benefits-banner--box--group">
+                            <h3 class="benefits-banner--box--group__title">Recompensas y servicios exclusivos</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="benefits--mid">
+            <div class="container-fluid">
+                <div class="benefits-panel">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="benefits-panel--icon">
+                                <img src="img/world.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="benefits-panel--info">
+                                <h4 class="benefits-panel--info__title">Estrellas BHD León.</h4>
+                                <h5 class="benefits-panel--info__text">Proporciona asistencia durante emergencias relacionada con la tarjeta en cualquier momento, desde cualquier lugar, por medio de una llamada telefónica gratuita.
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="benefits--bottom">
+            <div class="container-fluid">
+                <div class="benefits-panel">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="benefits-panel--icon">
+                                <img src="img/hand.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="benefits-panel--info">
+                                <h4 class="benefits-panel--info__title">Cuotas BHD León.</h4>
+                                <h5 class="benefits-panel--info__text">Es la línea de crédito adicional de tu tarjeta principal, que funciona con un límite independiente para que puedas realizar compras pagando directamente en el comercio de tu preferencia. Con tus Tarjetas de Crédito BHD León puedes pagar tus consumos en la cantidad de cuotas que quieras. Desde adquirir un elec-trodoméstico, comprar ropa o tus vacaciones soñadas hasta cubrir los gastos escolares de tus hijos. Conoce más aquí.
+                                    <br>*Este beneficio solo aplica para las Tarjetas BHD León Mastercard Black.</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="cities-fotter--logo">
+                <img src="img/footer-logo.png" alt="">
+            </div>
+        </div>
+    </footer>
     <!-- JS Scripts-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" ></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="/js/app.js"></script>
+
 </body>
 </html>

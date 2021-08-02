@@ -201,10 +201,10 @@ body {
   transition: all 0.5s;
 }
 #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .card-inner .card-front-text {
-  opacity: 0;
+  opacity: 1;
 }
 #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .card-inner .card-back-text {
-  opacity: 1;
+  opacity: 0;
 }
 #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .card-icon {
   text-align: center;

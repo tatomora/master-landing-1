@@ -131,23 +131,167 @@ body{
 /*Cities slider*/
 #cities-slider{
     .cities-slider--city{
+        position: relative;
+        text-align: right;
+        color: #fff;
         &--top{
+            padding: 0 180px;
             min-height: 670px;
             background-position: center;
             background-size: cover;
             display: flex;
             align-items: center;
+            position: relative;
+            .container-fluid{
+                display: flex;
+                justify-content: flex-end;
+            }
+            .cities-wrapper{
+                max-width: 50%;
+                text-align: center;
+                .cities-slider--city--top__icon{
+                    display: inline-block;
+                    img{
+                        max-height: 105px;
+                    }
+                }
+                .cities-slider--city--top__title{
+                    font-size: 96px;
+                    text-transform: uppercase;
+                }
+            }
+            .cities-slider--arrows{
+                position: absolute;
+                width: 100%;
+                left: 0;
+                top: 50%;
+                .arrow{
+                    display: inline-block;
+                    cursor: pointer;
+                    &-left{
+                        float: left;
+                    }
+                    &-right{
+                        float: right;
+                    }
+                }
+            }
         }
         &--bottom{
             background-color: $main-color;
             color: #fff;
             padding-top: 100px;
+            max-height: 530px;
             .cities-slider--city--bottom__card{
                 background-color: $box-color;
                 border-radius: 50px;
-                text-align: center;
+                text-align: left;
                 padding-top: 50px;
                 padding-left: 40px;
+                padding-right: 25px;
+                min-height: 550px;
+                
+                .card-inner{
+                    background-color: $box-color;
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+
+                    .card-front-text, .card-back-text{
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        transition: all .5s;
+                    }
+
+                    .card-front-text{
+                        opacity: 0;
+                    }
+                    .card-back-text{
+                        opacity: 1;
+                    }
+                }
+                .card-icon{
+                    text-align: center;
+                    margin-bottom: 35px;
+                    img{
+                        max-height: 105px;
+                        display: inline-block;
+                    }
+                }
+                .card-title{
+                    font-size: 38px;
+                    line-height: 45px;
+                    font-weight: 500;
+                    margin-bottom: 65px;
+                    position: relative;
+                    z-index: 0;
+                    &:after{
+                        content: '';
+                        height: 3px;
+                        width: 100px;
+                        background-color: #adaeae;
+                        position: absolute;
+                        left: 0;
+                        bottom: -30px;
+                        z-index: 1;
+                    }
+                }
+                .card-text{
+                    font-size: 23px;
+                    line-height: 35px;
+                    font-weight: 300;
+                }
+                .back-top{
+                    padding-bottom: 70px;
+                    padding-top: 30px;
+                    padding-right: 20px;
+                    border-bottom: 5px solid #fff;
+                    margin-bottom: 60px;
+                    min-height: 205px;
+                    max-height: 205px;
+                }
+                .name{
+                    display: block;
+                    font-size: 19px;
+                    line-height: 28px;
+                    font-weight: 300;
+                }
+                .frace{
+                    font-size: 23px;
+                    font-weight: 500;
+                    line-height: 32px;
+                }
+                .last{
+                    padding-top: 0;
+                    .name{
+                        display: none;
+                    }
+                    .frace{
+                        margin-bottom: 30px;
+                    }
+                    .furnature{
+                        img{
+                            margin-right: 28px;
+                            max-height: 45px;
+                            display: inline-block;
+                        }
+                        .room{
+                            display: inline-block;
+                            font-size: 19px;
+                            line-height: 28px;
+                            font-weight: 300;
+                        }
+                    }
+                }
+                &:hover{
+                    .card-front-text{
+                        opacity: 0;
+                    }
+                    .card-back-text{
+                        opacity: 1;
+                    }
+                }
             }
         }
         .city--new-york{
@@ -161,6 +305,11 @@ body{
         }
         .city--others{
             background-image: url('../../img/slider-others.png');
+        }
+    }
+    .cities-footer--logo{
+        img{
+            margin: 0 auto;
         }
     }
 }
@@ -811,8 +960,11 @@ body{
 }
 
 
-#footer{
+.footer{
     text-align: center;
-    padding-top: 150px;
+    padding-top: 180px;
     padding-bottom: 80px;
+    background-image: url('../../img/footer-bg.png');
+    background-position: center;
+    background-size: cover;
 }

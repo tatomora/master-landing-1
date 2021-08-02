@@ -65,7 +65,7 @@ body {
 }
 #home-top .card-wrapper {
   min-height: 800px;
-  background-image: url("../../img/home-bg2.png");
+  background-image: url("https://jesusquev3311.github.io/master-landing/img/home-bg2.png");
   background-position: center left;
   background-size: cover;
   border-radius: 40px;
@@ -295,16 +295,16 @@ body {
   opacity: 1;
 }
 #cities-slider .cities-slider--city .city--new-york {
-  background-image: url("../../img/slider-new-york.png");
+  background-image: url("https://jesusquev3311.github.io/master-landing/img/slider-new-york.png");
 }
 #cities-slider .cities-slider--city .city--miami {
-  background-image: url("../../img/slider-miami.png");
+  background-image: url("https://jesusquev3311.github.io/master-landing/img/slider-miami.png");
 }
 #cities-slider .cities-slider--city .city--madrid {
-  background-image: url("../../img/slider-madrid.png");
+  background-image: url("https://jesusquev3311.github.io/master-landing/img/slider-madrid.png");
 }
 #cities-slider .cities-slider--city .city--others {
-  background-image: url("../../img/slider-others.png");
+  background-image: url("https://jesusquev3311.github.io/master-landing/img/slider-others.png");
 }
 #cities-slider .cities-footer--logo img {
   margin: 0 auto;
@@ -507,7 +507,7 @@ body {
 }
 #services--top .services-banner {
   min-height: 720px;
-  background-image: url("../../img/services-bg.png");
+  background-image: url("https://jesusquev3311.github.io/master-landing/img/services-bg.png");
   background-position: center;
   background-size: cover;
   border-radius: 50px;
@@ -635,7 +635,7 @@ body {
 }
 #protection--top .protection-banner {
   min-height: 720px;
-  background-image: url("../../img/protection.png");
+  background-image: url("https://jesusquev3311.github.io/master-landing/img/protection.png");
   background-position: center;
   background-size: cover;
   border-radius: 50px;
@@ -943,7 +943,7 @@ body {
   text-align: center;
   padding-top: 180px;
   padding-bottom: 80px;
-  background-image: url("../../img/footer-bg.png");
+  background-image: url("https://jesusquev3311.github.io/master-landing//img/footer-bg.png");
   background-position: center;
   background-size: cover;
 }

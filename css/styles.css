@@ -313,6 +313,11 @@ body {
 #travel .travel-panel--icon img {
   max-height: 200px;
 }
+#travel a {
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
 #travel--top {
   max-height: 660px;
   background: #181818;
@@ -539,6 +544,7 @@ body {
 }
 #services--mid .services-panel a {
   font-weight: 500;
+  text-decoration: none;
 }
 #services--mid .services-panel .col-3 {
   text-align: center;
@@ -581,6 +587,10 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 40px;
+}
+#services--bottom .services-panel a {
+  font-weight: 500;
+  text-decoration: none;
 }
 #services--bottom .services-panel .col-3 {
   text-align: center;

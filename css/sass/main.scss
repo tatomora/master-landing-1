@@ -330,6 +330,11 @@ body{
             max-height: 200px;
         }
     }
+    a{
+        font-weight: 500;
+        color: #fff;
+        text-decoration: none;
+    }
     &--top{
         max-height: 660px;
         background: $main-color;
@@ -555,12 +560,14 @@ body{
         background-image: url('../../img/footer-bg.png');
         background-position: center;
         background-size: cover;
+
         .services-panel{
             display: flex;
             align-items: center;
             margin-bottom: 40px;
             a{
                 font-weight: 500;
+                text-decoration: none;
             }
 
             .col-3{
@@ -607,6 +614,10 @@ body{
             display: flex;
             align-items: center;
             margin-bottom: 40px;
+            a{
+                font-weight: 500;
+                text-decoration: none;
+            }
             .col-3{
                 text-align: center;
             }

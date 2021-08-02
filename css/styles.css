@@ -353,6 +353,9 @@ body {
   align-items: center;
   margin-bottom: 40px;
 }
+#travel--mid .travel-panel span ul li {
+  font-weight: 500;
+}
 #travel--mid .travel-panel .col-3 {
   text-align: center;
 }
@@ -525,11 +528,17 @@ body {
 #services--mid {
   padding-top: 180px;
   padding-bottom: 40px;
+  background-image: url("../../img/footer-bg.png");
+  background-position: center;
+  background-size: cover;
 }
 #services--mid .services-panel {
   display: flex;
   align-items: center;
   margin-bottom: 40px;
+}
+#services--mid .services-panel a {
+  font-weight: 500;
 }
 #services--mid .services-panel .col-3 {
   text-align: center;

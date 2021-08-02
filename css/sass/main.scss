@@ -5,8 +5,13 @@ $main-font: 'Montserrat', sans-serif;
 $main-color: #181818;
 $box-color: #262a2b;
 /*Typography*/
+html {
+    scroll-behavior: smooth;
+  }
 body{
     font-family: $main-font;
+    position: relative;
+    padding-top: 143px;
 }
 /*bootstrap clasess rest */
 .container-fluid{
@@ -16,6 +21,11 @@ body{
 .main-header{
     background-color: $main-color;
     padding: 30px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
     .row{
         align-items: center;
     }

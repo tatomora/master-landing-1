@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /*Global Variables*/
 /*Typography*/
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
+  position: relative;
+  padding-top: 143px;
 }
 
 /*bootstrap clasess rest */
@@ -14,6 +20,11 @@ body {
 .main-header {
   background-color: #181818;
   padding: 30px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
 }
 .main-header .row {
   align-items: center;

@@ -64,3 +64,19 @@ $('a[href*="#"]')
             }
         }
     });
+
+// Mobile menu
+const mobileMenu = $("#mobile-menu");
+const mobileMenuItem = $("#mobile-menu .main-heder--nav-menu__item");
+const mobileMenuBtn = $("#mobile-btn");
+const mobileMenuClose = $("#mobile-menu--close");
+
+const toggleMobileMenu = (item) => {
+    item.on("click", () => {
+        mobileMenu.toggleClass("menu-on");
+    });
+};
+
+toggleMobileMenu(mobileMenuBtn);
+toggleMobileMenu(mobileMenuItem);
+toggleMobileMenu(mobileMenuClose);

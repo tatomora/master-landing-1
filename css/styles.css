@@ -122,9 +122,28 @@ body {
   position: relative;
   left: 0;
   margin-bottom: 70px;
+  min-height: 250px;
 }
 #home-bottom .bottom-text--img img {
   max-height: 385px;
+  position: absolute;
+  bottom: 0;
+}
+#home-bottom .bottom-text--img #card1 {
+  left: 30%;
+  animation-duration: 0.5s;
+}
+#home-bottom .bottom-text--img #card2 {
+  left: 20%;
+  animation-duration: 1s;
+}
+#home-bottom .bottom-text--img #card3 {
+  left: 15%;
+  animation-duration: 1.5s;
+}
+#home-bottom .bottom-text--img #card4 {
+  left: 5%;
+  animation-duration: 2s;
 }
 #home-bottom .bottom-text--title {
   font-size: 36px;
@@ -353,6 +372,38 @@ body {
   margin-bottom: 40px;
   font-weight: 500;
 }
+#travel--top .bottom-text {
+  text-align: center;
+}
+#travel--top .bottom-text--img {
+  display: block;
+  text-align: left;
+  position: relative;
+  left: 0;
+  margin-bottom: 70px;
+  min-height: 250px;
+}
+#travel--top .bottom-text--img img {
+  max-height: 385px;
+  position: absolute;
+  bottom: 0;
+}
+#travel--top .bottom-text--img #card1 {
+  left: 30%;
+  animation-duration: 0.5s;
+}
+#travel--top .bottom-text--img #card2 {
+  left: 20%;
+  animation-duration: 1s;
+}
+#travel--top .bottom-text--img #card3 {
+  left: 15%;
+  animation-duration: 1.5s;
+}
+#travel--top .bottom-text--img #card4 {
+  left: 5%;
+  animation-duration: 2s;
+}
 #travel--mid {
   padding-top: 180px;
   padding-bottom: 40px;
@@ -534,6 +585,38 @@ body {
   margin-bottom: 40px;
   font-weight: 500;
 }
+#services--top .bottom-text {
+  text-align: center;
+}
+#services--top .bottom-text--img {
+  display: block;
+  text-align: left;
+  position: relative;
+  left: 0;
+  margin-bottom: 70px;
+  min-height: 250px;
+}
+#services--top .bottom-text--img img {
+  max-height: 385px;
+  position: absolute;
+  bottom: 0;
+}
+#services--top .bottom-text--img #card1 {
+  left: 30%;
+  animation-duration: 0.5s;
+}
+#services--top .bottom-text--img #card2 {
+  left: 20%;
+  animation-duration: 1s;
+}
+#services--top .bottom-text--img #card3 {
+  left: 15%;
+  animation-duration: 1.5s;
+}
+#services--top .bottom-text--img #card4 {
+  left: 5%;
+  animation-duration: 2s;
+}
 #services--mid {
   padding-top: 180px;
   padding-bottom: 40px;
@@ -661,6 +744,38 @@ body {
   line-height: 63px;
   margin-bottom: 40px;
   font-weight: 500;
+}
+#protection--top .bottom-text {
+  text-align: center;
+}
+#protection--top .bottom-text--img {
+  display: block;
+  text-align: left;
+  position: relative;
+  left: 0;
+  margin-bottom: 70px;
+  min-height: 250px;
+}
+#protection--top .bottom-text--img img {
+  max-height: 385px;
+  position: absolute;
+  bottom: 0;
+}
+#protection--top .bottom-text--img #card1 {
+  left: 30%;
+  animation-duration: 0.5s;
+}
+#protection--top .bottom-text--img #card2 {
+  left: 20%;
+  animation-duration: 1s;
+}
+#protection--top .bottom-text--img #card3 {
+  left: 15%;
+  animation-duration: 1.5s;
+}
+#protection--top .bottom-text--img #card4 {
+  left: 5%;
+  animation-duration: 2s;
 }
 #protection--mid {
   padding-top: 180px;
@@ -832,6 +947,38 @@ body {
   line-height: 63px;
   margin-bottom: 40px;
   font-weight: 500;
+}
+#benefits--top .bottom-text {
+  text-align: center;
+}
+#benefits--top .bottom-text--img {
+  display: block;
+  text-align: left;
+  position: relative;
+  left: 0;
+  margin-bottom: 70px;
+  min-height: 250px;
+}
+#benefits--top .bottom-text--img img {
+  max-height: 385px;
+  position: absolute;
+  bottom: 0;
+}
+#benefits--top .bottom-text--img #card1 {
+  left: 30%;
+  animation-duration: 0.5s;
+}
+#benefits--top .bottom-text--img #card2 {
+  left: 20%;
+  animation-duration: 1s;
+}
+#benefits--top .bottom-text--img #card3 {
+  left: 15%;
+  animation-duration: 1.5s;
+}
+#benefits--top .bottom-text--img #card4 {
+  left: 5%;
+  animation-duration: 2s;
 }
 #benefits--mid {
   padding-top: 180px;
@@ -1039,10 +1186,11 @@ body {
   }
   #home-bottom .bottom-text--img {
     margin-bottom: 20px;
+    min-height: 110px;
   }
   #home-bottom .bottom-text--img img {
-    max-width: 100%;
-    position: relative;
+    max-width: 40%;
+    position: absolute;
     top: -20px;
   }
   #home-bottom .bottom-text--title, #home-bottom .bottom-text--text {
@@ -1131,19 +1279,20 @@ body {
     margin-bottom: 20px !important;
   }
   #travel--top .bottom-text--img {
-    margin-bottom: 20px;
+    min-height: 110px;
   }
   #travel--top .bottom-text--img img {
-    max-width: 100%;
-    position: relative;
+    max-width: 40%;
+    position: absolute;
     top: -20px;
   }
   #travel--bottom .bottom-text--img {
     margin-bottom: 20px;
+    min-height: 110px;
   }
   #travel--bottom .bottom-text--img img {
-    max-width: 100%;
-    position: relative;
+    max-width: 40%;
+    position: absolute;
     top: -20px;
   }
   #travel--bottom .bottom-text--title, #travel--bottom .bottom-text--text {
@@ -1204,19 +1353,20 @@ body {
     margin-bottom: 20px !important;
   }
   #services--top .bottom-text--img {
-    margin-bottom: 20px;
+    min-height: 110px;
   }
   #services--top .bottom-text--img img {
-    max-width: 100%;
-    position: relative;
+    max-width: 40%;
+    position: absolute;
     top: -20px;
   }
   #services--bottom .bottom-text--img {
     margin-bottom: 20px;
+    min-height: 110px;
   }
   #services--bottom .bottom-text--img img {
-    max-width: 100%;
-    position: relative;
+    max-width: 40%;
+    position: absolute;
     top: -20px;
   }
   #services--bottom .bottom-text--title, #services--bottom .bottom-text--text {
@@ -1278,18 +1428,20 @@ body {
   }
   #protection--top .bottom-text--img {
     margin-bottom: 20px;
+    min-height: 110px;
   }
   #protection--top .bottom-text--img img {
-    max-width: 100%;
-    position: relative;
+    max-width: 40%;
+    position: absolute;
     top: -20px;
   }
   #protection--bottom .bottom-text--img {
     margin-bottom: 20px;
+    min-height: 110px;
   }
   #protection--bottom .bottom-text--img img {
-    max-width: 100%;
-    position: relative;
+    max-width: 40%;
+    position: absolute;
     top: -20px;
   }
   #protection--bottom .bottom-text--title, #protection--bottom .bottom-text--text {
@@ -1357,18 +1509,20 @@ body {
   }
   #benefits--top .bottom-text--img {
     margin-bottom: 20px;
+    min-height: 110px;
   }
   #benefits--top .bottom-text--img img {
-    max-width: 100%;
-    position: relative;
+    max-width: 40%;
+    position: absolute;
     top: -20px;
   }
   #benefits--bottom .bottom-text--img {
     margin-bottom: 20px;
+    min-height: 110px;
   }
   #benefits--bottom .bottom-text--img img {
-    max-width: 100%;
-    position: relative;
+    max-width: 40%;
+    position: absolute;
     top: -20px;
   }
   #benefits--bottom .bottom-text--title, #benefits--bottom .bottom-text--text {
@@ -1457,10 +1611,11 @@ body {
   }
   #home-bottom .bottom-text--img {
     margin-bottom: 20px;
+    min-height: 220px;
   }
   #home-bottom .bottom-text--img img {
-    max-width: 100%;
-    position: relative;
+    max-width: 40%;
+    position: absolute;
     top: -20px;
   }
   #home-bottom .bottom-text--title, #home-bottom .bottom-text--text {
@@ -1565,10 +1720,11 @@ body {
   }
   #travel--bottom .bottom-text--img {
     margin-bottom: 20px;
+    min-height: 220px;
   }
   #travel--bottom .bottom-text--img img {
-    max-width: 100%;
-    position: relative;
+    max-width: 40%;
+    position: absolute;
     top: -20px;
   }
   #travel--bottom .bottom-text--title, #travel--bottom .bottom-text--text {
@@ -1633,10 +1789,11 @@ body {
   }
   #services--bottom .bottom-text--img {
     margin-bottom: 20px;
+    min-height: 220px;
   }
   #services--bottom .bottom-text--img img {
-    max-width: 100%;
-    position: relative;
+    max-width: 40%;
+    position: absolute;
     top: -20px;
   }
   #services--bottom .bottom-text--title, #services--bottom .bottom-text--text {
@@ -1701,10 +1858,11 @@ body {
   }
   #protection--bottom .bottom-text--img {
     margin-bottom: 20px;
+    min-height: 220px;
   }
   #protection--bottom .bottom-text--img img {
-    max-width: 100%;
-    position: relative;
+    max-width: 40%;
+    position: absolute;
     top: -20px;
   }
   #protection--bottom .bottom-text--title, #protection--bottom .bottom-text--text {
@@ -1772,10 +1930,11 @@ body {
   }
   #benefits--bottom .bottom-text--img {
     margin-bottom: 20px;
+    min-height: 220px;
   }
   #benefits--bottom .bottom-text--img img {
-    max-width: 100%;
-    position: relative;
+    max-width: 40%;
+    position: absolute;
     top: -20px;
   }
   #benefits--bottom .bottom-text--title, #benefits--bottom .bottom-text--text {

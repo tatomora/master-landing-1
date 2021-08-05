@@ -14,7 +14,9 @@ body{
     padding-top: 143px;
 }
 .collapsing{
-    display: none;
+    font-size: 23px;
+    line-height: 27px;
+    font-weight: 300;
 }
 /*bootstrap clasess rest */
 .container-fluid{
@@ -215,32 +217,49 @@ body{
             padding-top: 100px;
             max-height: 530px;
             .cities-slider--city--bottom__card{
-                background-color: $box-color;
-                border-radius: 50px;
-                text-align: left;
-                padding-top: 50px;
-                padding-left: 40px;
-                padding-right: 25px;
-                min-height: 550px;
-                
                 .card-inner{
-                    background-color: $box-color;
                     position: relative;
                     width: 100%;
                     height: 100%;
+                    text-align: left;
+                    min-height: 550px;
 
                     .card-front-text, .card-back-text{
+                        background-color: $box-color;
+                        border-radius: 50px;
                         position: absolute;
                         width: 100%;
                         height: 100%;
-                        transition: all .5s;
+                        padding-top: 50px;
+                        padding-left: 40px;
+                        padding-right: 25px;
+                        -webkit-backface-visibility: hidden;
+                        backface-visibility: hidden;
+                        -webkit-transition: 0.3s;
+                        transition: 0.3s;
                     }
 
                     .card-front-text{
-                        opacity: 1;
+                        background-color: $box-color;
                     }
                     .card-back-text{
-                        opacity: 0;
+                        -webkit-transform: rotateY(-180deg);
+                        -ms-transform: rotateY(-180deg);
+                        transform: rotateY(-180deg);
+                    }
+                }
+                .flip-effect{
+                    &:hover{
+                        .card-front-text{
+                            -webkit-transform: rotateY(-180deg);
+                            -ms-transform: rotateY(-180deg);
+                            transform: rotateY(-180deg);
+                        }
+                        .card-back-text{
+                            -webkit-transform: rotateY(0);
+                            -ms-transform: rotateY(0);
+                            transform: rotateY(0);
+                        }
                     }
                 }
                 .card-icon{
@@ -314,14 +333,6 @@ body{
                             line-height: 28px;
                             font-weight: 300;
                         }
-                    }
-                }
-                &:hover{
-                    .card-front-text{
-                        opacity: 0;
-                    }
-                    .card-back-text{
-                        opacity: 1;
                     }
                 }
             }
@@ -643,7 +654,7 @@ body{
     &--mid{
         padding-top: 180px;
         padding-bottom: 40px;
-        background-image: url('../../img/footer-bg.png');
+        background-image: url('https://jesusquev3311.github.io/master-landing/img/footer-bg.png');
         background-position: center;
         background-size: cover;
 
@@ -1298,6 +1309,9 @@ body{
         #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .last .furnature img{
             max-height: 30px;
         }
+        #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .card-inner .card-back-text{
+            transform: none;
+        }
     }
 
     #travel{
@@ -1527,6 +1541,7 @@ body{
         .protection-panel{
             position: relative;
             margin-bottom: 60px;
+            min-height: 200px;
         }
         .protection-panel button{
             position: absolute;
@@ -1744,6 +1759,9 @@ body{
         }
         #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .last .furnature img{
             max-height: 30px;
+        }
+        #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .card-inner .card-back-text{
+            transform: none;
         }
     }
 

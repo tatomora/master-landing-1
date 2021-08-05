@@ -1485,7 +1485,7 @@ body {
     position: absolute;
     left: 0;
   }
-  #protection #protection--bottom .protection-panel button {
+  #protection .protection-panel button {
     bottom: 0;
   }
   #protection #protection--bottom .protection-panel--info {

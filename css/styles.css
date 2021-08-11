@@ -1300,6 +1300,9 @@ body {
   #cities #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .card-inner .card-back-text {
     transform: none;
   }
+  #cities #cities-slider .cities-slider--city--top .cities-slider--arrows {
+    padding: 0 30px;
+  }
 
   #travel .container-fluid {
     padding: 0;
@@ -1369,6 +1372,7 @@ body {
   #travel .travel-panel {
     position: relative;
     margin-bottom: 60px;
+    padding: 0 30px;
   }
   #travel .travel-panel button {
     position: absolute;
@@ -1443,6 +1447,7 @@ body {
   #services .services-panel {
     position: relative;
     margin-bottom: 60px;
+    padding: 0 30px;
   }
   #services .services-panel button {
     position: absolute;
@@ -1519,6 +1524,7 @@ body {
     position: relative;
     margin-bottom: 60px;
     min-height: 200px;
+    padding: 0 30px;
   }
   #protection .protection-panel button {
     position: absolute;
@@ -1600,6 +1606,7 @@ body {
   #benefits .benefits-panel {
     position: relative;
     margin-bottom: 60px;
+    padding: 0 30px;
   }
   #benefits .benefits-panel button {
     position: absolute;

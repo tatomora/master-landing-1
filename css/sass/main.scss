@@ -14,8 +14,8 @@ body{
     padding-top: 143px;
 }
 .collapsing{
-    font-size: 23px;
-    line-height: 27px;
+    font-size: 21px;
+    line-height: 25px;
     font-weight: 300;
 }
 /*bootstrap clasess rest */
@@ -47,8 +47,8 @@ body{
                     text-decoration: none;
                     color: #fff;
                     padding: 10px 15px;
-                    font-size: 22px;
-                    line-height: 25px;
+                    font-size: 20px;
+                    line-height: 23px;
                     transition: all .5s;
                     border: 2px solid $main-color;
                     border-radius: 20px;
@@ -87,14 +87,14 @@ body{
                 max-width: 50%;
             }
             .card-wrapper--textbox--group__title{
-                    font-size: 37px;
-                    line-height: 47px;
+                    font-size: 35px;
+                    line-height: 45px;
                     margin-bottom: 40px;
                 
             }
             .card-wrapper--textbox--group__btn{
                 background-color: $main-color;
-                font-size: 24px;
+                font-size: 22px;
                 padding: 5px 45px;
                 font-weight: 300;
                 color: #fff;
@@ -152,14 +152,14 @@ body{
                 }
             }
             &--title{
-                font-size: 36px;
-                line-height: 43px;
+                font-size: 34px;
+                line-height: 41px;
                 font-weight: 500;
                 margin-bottom: 20px;
             }
             &--text{
-                font-size: 35px;
-                line-height: 43px;
+                font-size: 33px;
+                line-height: 41px;
                 font-weight: 200;
                 margin-bottom: 20px;
             }
@@ -174,7 +174,7 @@ body{
         color: #fff;
         &--top{
             padding: 0 180px;
-            min-height: 670px;
+            min-height: 470px;
             background-position: center;
             background-size: cover;
             display: flex;
@@ -194,7 +194,7 @@ body{
                     }
                 }
                 .cities-slider--city--top__title{
-                    font-size: 96px;
+                    font-size: 93px;
                     text-transform: uppercase;
                 }
             }
@@ -275,8 +275,8 @@ body{
                     }
                 }
                 .card-title{
-                    font-size: 38px;
-                    line-height: 45px;
+                    font-size: 36px;
+                    line-height: 43px;
                     font-weight: 500;
                     margin-bottom: 65px;
                     position: relative;
@@ -293,8 +293,8 @@ body{
                     }
                 }
                 .card-text{
-                    font-size: 23px;
-                    line-height: 35px;
+                    font-size: 21px;
+                    line-height: 33px;
                     font-weight: 300;
                 }
                 .back-top{
@@ -308,14 +308,14 @@ body{
                 }
                 .name{
                     display: block;
-                    font-size: 19px;
-                    line-height: 28px;
+                    font-size: 17px;
+                    line-height: 26px;
                     font-weight: 300;
                 }
                 .frace{
-                    font-size: 23px;
+                    font-size: 21px;
                     font-weight: 500;
-                    line-height: 32px;
+                    line-height: 30px;
                 }
                 .last{
                     padding-top: 0;
@@ -333,8 +333,8 @@ body{
                         }
                         .room{
                             display: inline-block;
-                            font-size: 19px;
-                            line-height: 28px;
+                            font-size: 17px;
+                            line-height: 26px;
                             font-weight: 300;
                         }
                     }
@@ -396,8 +396,8 @@ body{
                 max-width: 50%;
             }
             .travel-banner--box--group__title{
-                font-size: 51px;
-                line-height: 63px;
+                font-size: 49px;
+                line-height: 61px;
                 margin-bottom: 40px;
                 font-weight: 500;
             }
@@ -449,8 +449,8 @@ body{
                 text-align: center;
             }
             .collapse span, .show span, .travel-panel--info__text{
-                font-size: 23px;
-                line-height: 27px;
+                font-size: 21px;
+                line-height: 25px;
                 font-weight: 300;
             }
             .collapse{
@@ -488,8 +488,8 @@ body{
             &--info{
                 min-height: 341px;
                 &__title{
-                    font-size: 38px;
-                    line-height: 43px;
+                    font-size: 36px;
+                    line-height: 41px;
                     font-weight: 500;
                     margin-bottom: 40px;
                     position: relative;
@@ -523,8 +523,8 @@ body{
                 text-align: center;
             }
             .collapse span, .show span, .travel-panel--info__text{
-                font-size: 23px;
-                line-height: 27px;
+                font-size: 21px;
+                line-height: 25px;
                 font-weight: 300;
             }
             .collapse{
@@ -563,8 +563,8 @@ body{
             &--info{
                 min-height: 341px;
                 &__title{
-                    font-size: 38px;
-                    line-height: 43px;
+                    font-size: 36px;
+                    line-height: 41px;
                     font-weight: 500;
                     margin-bottom: 40px;
                     position: relative;
@@ -616,8 +616,8 @@ body{
                 max-width: 50%;
             }
             .services-banner--box--group__title{
-                font-size: 51px;
-                line-height: 63px;
+                font-size: 49px;
+                line-height: 61px;
                 margin-bottom: 40px;
                 font-weight: 500;
             }
@@ -675,8 +675,8 @@ body{
                 text-align: center;
             }
             .collapse span, .show span, .services-panel--info__text{
-                font-size: 23px;
-                line-height: 27px;
+                font-size: 21px;
+                line-height: 25px;
                 font-weight: 300;
             }
             .collapse{
@@ -684,8 +684,8 @@ body{
             }
             &--info{
                 &__title{
-                    font-size: 38px;
-                    line-height: 43px;
+                    font-size: 36px;
+                    line-height: 41px;
                     font-weight: 500;
                     margin-bottom: 40px;
                     position: relative;
@@ -723,8 +723,8 @@ body{
                 text-align: center;
             }
             .collapse span, .show span, .services-panel--info__text{
-                font-size: 23px;
-                line-height: 27px;
+                font-size: 21px;
+                line-height: 25px;
                 font-weight: 300;
             }
             .collapse{
@@ -732,8 +732,8 @@ body{
             }
             &--info{
                 &__title{
-                    font-size: 38px;
-                    line-height: 43px;
+                    font-size: 36px;
+                    line-height: 41px;
                     font-weight: 500;
                     margin-bottom: 40px;
                     position: relative;
@@ -785,8 +785,8 @@ body{
                 max-width: 50%;
             }
             .protection-banner--box--group__title{
-                font-size: 51px;
-                line-height: 63px;
+                font-size: 49px;
+                line-height: 61px;
                 margin-bottom: 40px;
                 font-weight: 500;
             }
@@ -873,8 +873,8 @@ body{
             &--info{
                 
                 &__title{
-                    font-size: 38px;
-                    line-height: 43px;
+                    font-size: 36px;
+                    line-height: 41px;
                     font-weight: 500;
                     margin-bottom: 40px;
                     position: relative;
@@ -906,7 +906,7 @@ body{
                 text-align: center;
             }
             .collapse span, .show span, .protection-panel--info__text{
-                font-size: 23px;
+                font-size: 21px;
                 line-height: 27px;
                 font-weight: 300;
             }
@@ -946,7 +946,7 @@ body{
             &--info{
                 min-height: 341px;
                 &__title{
-                    font-size: 38px;
+                    font-size: 36px;
                     line-height: 43px;
                     font-weight: 500;
                     margin-bottom: 40px;
@@ -999,7 +999,7 @@ body{
                 max-width: 50%;
             }
             .benefits-banner--box--group__title{
-                font-size: 51px;
+                font-size: 49px;
                 line-height: 63px;
                 margin-bottom: 40px;
                 font-weight: 500;
@@ -1049,7 +1049,7 @@ body{
                 text-align: center;
             }
             .collapse span, .show span, .benefits-panel--info__text{
-                font-size: 23px;
+                font-size: 21px;
                 line-height: 27px;
                 font-weight: 300;
             }
@@ -1087,7 +1087,7 @@ body{
             }
             &--info{
                 &__title{
-                    font-size: 38px;
+                    font-size: 36px;
                     line-height: 43px;
                     font-weight: 500;
                     margin-bottom: 40px;
@@ -1122,7 +1122,7 @@ body{
                 text-align: center;
             }
             .collapse span, .show span, .benefits-panel--info__text{
-                font-size: 23px;
+                font-size: 21px;
                 line-height: 27px;
                 font-weight: 300;
             }
@@ -1131,7 +1131,7 @@ body{
             }
             &--info{
                 &__title{
-                    font-size: 38px;
+                    font-size: 36px;
                     line-height: 43px;
                     font-weight: 500;
                     margin-bottom: 40px;
@@ -1182,7 +1182,7 @@ body{
             background: none;
             border: none;
             color: #fff;
-            font-size: 21px;
+            font-size: 19px;
             line-height: 31px;
             cursor: pointer;
             float: right;
@@ -1214,7 +1214,7 @@ body{
             color: #fff;
             right: 20px;
             top: 20px;
-            font-size: 30px;
+            font-size: 28px;
             font-weight: 500;
         }
     }
@@ -1237,7 +1237,7 @@ body{
                     &--group{
                         padding: 50px 0;
                         &__title{
-                        font-size: 27px !important;
+                        font-size: 25px !important;
                         line-height: 37px !important;
                         margin-bottom: 20px !important;
                         }
@@ -1256,7 +1256,7 @@ body{
                 }
             }
             .bottom-text--title, .bottom-text--text{
-                font-size: 26px;
+                font-size: 24px;
                 line-height: 36px;
             }
         }
@@ -1275,7 +1275,7 @@ body{
             max-width: 100%;
         }
         #cities-slider .cities-slider--city--top .cities-wrapper .cities-slider--city--top__title{
-            font-size: 36px;
+            font-size: 34px;
         }
         #cities-slider .cities-slider--city--top .cities-wrapper .cities-slider--city--top__icon img{
             max-height: 65px;
@@ -1307,7 +1307,7 @@ body{
         #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .last .frace{
             margin-top: 30px;
             margin-bottom: 20px;
-            font-size: 22px;
+            font-size: 20px;
             line-height: 30px;
         }
         #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .last .furnature img{
@@ -1338,7 +1338,7 @@ body{
                         padding: 50px 0;
                         width: 100%;
                         &__title{
-                        font-size: 27px !important;
+                        font-size: 25px !important;
                         line-height: 37px !important;
                         margin-bottom: 20px !important;
                         }
@@ -1365,7 +1365,7 @@ body{
                 }
             }
             .bottom-text--title, .bottom-text--text{
-                font-size: 26px;
+                font-size: 24px;
                 line-height: 36px;
             }
         }
@@ -1379,11 +1379,11 @@ body{
             padding: 0 25px;
         }
         .travel-panel--info__title{
-            font-size: 25px;
+            font-size: 23px;
             line-height: 35px;
         }
         .travel-panel .collapse span, .travel-panel .show span, .travel-panel .travel-panel--info__text{
-            font-size: 18px;
+            font-size: 16px;
             line-height: 28px;
         }
         .travel-panel{
@@ -1416,7 +1416,7 @@ body{
                         padding: 50px 0;
                         width: 100%;
                         &__title{
-                        font-size: 27px !important;
+                        font-size: 25px !important;
                         line-height: 37px !important;
                         margin-bottom: 20px !important;
                         }
@@ -1443,7 +1443,7 @@ body{
                 }
             }
             .bottom-text--title, .bottom-text--text{
-                font-size: 26px;
+                font-size: 24px;
                 line-height: 36px;
             }
         }
@@ -1457,11 +1457,11 @@ body{
             padding: 0 25px;
         }
         .services-panel--info__title{
-            font-size: 25px;
+            font-size: 23px;
             line-height: 35px;
         }
         .services-panel .collapse span, .services-panel .show span, .services-panel .services-panel--info__text{
-            font-size: 18px;
+            font-size: 16px;
             line-height: 28px;
         }
         .services-panel{
@@ -1493,7 +1493,7 @@ body{
                         padding: 50px 0;
                         width: 100%;
                         &__title{
-                        font-size: 27px !important;
+                        font-size: 25px !important;
                         line-height: 37px !important;
                         margin-bottom: 20px !important;
                         }
@@ -1521,7 +1521,7 @@ body{
                 }
             }
             .bottom-text--title, .bottom-text--text{
-                font-size: 26px;
+                font-size: 24px;
                 line-height: 36px;
             }
         }
@@ -1535,11 +1535,11 @@ body{
             padding: 0 25px;
         }
         .protection-panel--info__title{
-            font-size: 25px;
+            font-size: 23px;
             line-height: 35px;
         }
         .protection-panel .collapse span, .protection-panel .show span, .protection-panel .protection-panel--info__text{
-            font-size: 18px;
+            font-size: 16px;
             line-height: 28px;
         }
         .protection-panel{
@@ -1578,7 +1578,7 @@ body{
                         padding: 50px 0;
                         width: 100%;
                         &__title{
-                        font-size: 27px !important;
+                        font-size: 25px !important;
                         line-height: 37px !important;
                         margin-bottom: 20px !important;
                         }
@@ -1606,7 +1606,7 @@ body{
                 }
             }
             .bottom-text--title, .bottom-text--text{
-                font-size: 26px;
+                font-size: 24px;
                 line-height: 36px;
             }
         }
@@ -1620,11 +1620,11 @@ body{
             padding: 0 25px;
         }
         .benefits-panel--info__title{
-            font-size: 25px;
+            font-size: 23px;
             line-height: 35px;
         }
         .benefits-panel .collapse span, .benefits-panel .show span, .benefits-panel .benefits-panel--info__text{
-            font-size: 18px;
+            font-size: 16px;
             line-height: 28px;
         }
         .benefits-panel{
@@ -1650,7 +1650,7 @@ body{
             background: none;
             border: none;
             color: #fff;
-            font-size: 21px;
+            font-size: 19px;
             line-height: 31px;
             cursor: pointer;
         }
@@ -1660,7 +1660,7 @@ body{
         }
     }
     .main-header--nav-menu ul li a{
-        font-size: 14px;
+        font-size: 12px;
         padding: 10px 5px;
     }
 
@@ -1682,7 +1682,7 @@ body{
                     &--group{
                         padding: 50px 0;
                         &__title{
-                        font-size: 27px !important;
+                        font-size: 25px !important;
                         line-height: 37px !important;
                         margin-bottom: 20px !important;
                         }
@@ -1701,7 +1701,7 @@ body{
                 }
             }
             .bottom-text--title, .bottom-text--text{
-                font-size: 26px;
+                font-size: 24px;
                 line-height: 36px;
             }
         }
@@ -1720,7 +1720,7 @@ body{
             max-width: 100%;
         }
         #cities-slider .cities-slider--city--top .cities-wrapper .cities-slider--city--top__title{
-            font-size: 36px;
+            font-size: 34px;
         }
         #cities-slider .cities-slider--city--top .cities-wrapper .cities-slider--city--top__icon img{
             max-height: 65px;
@@ -1753,12 +1753,12 @@ body{
             min-height: 140px;
         }
         #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .frace{
-            font-size: 17px;
+            font-size: 15px;
         }
         #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .last .frace{
             margin-top: 30px;
             margin-bottom: 20px;
-            font-size: 17px;
+            font-size: 15px;
             line-height: 30px;
         }
         #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .last .furnature img{
@@ -1789,7 +1789,7 @@ body{
                         padding: 50px 0;
                         width: 100%;
                         &__title{
-                        font-size: 27px !important;
+                        font-size: 25px !important;
                         line-height: 37px !important;
                         margin-bottom: 20px !important;
                         }
@@ -1817,7 +1817,7 @@ body{
                 }
             }
             .bottom-text--title, .bottom-text--text{
-                font-size: 26px;
+                font-size: 24px;
                 line-height: 36px;
             }
         }
@@ -1831,11 +1831,11 @@ body{
             padding: 0 25px;
         }
         .travel-panel--info__title{
-            font-size: 25px;
+            font-size: 23px;
             line-height: 35px;
         }
         .travel-panel .collapse span, .travel-panel .show span, .travel-panel .travel-panel--info__text{
-            font-size: 18px;
+            font-size: 16px;
             line-height: 28px;
         }
         .travel-panel{
@@ -1863,7 +1863,7 @@ body{
                         padding: 50px 0;
                         width: 100%;
                         &__title{
-                        font-size: 27px !important;
+                        font-size: 25px !important;
                         line-height: 37px !important;
                         margin-bottom: 20px !important;
                         }
@@ -1890,7 +1890,7 @@ body{
                 }
             }
             .bottom-text--title, .bottom-text--text{
-                font-size: 26px;
+                font-size: 24px;
                 line-height: 36px;
             }
         }
@@ -1904,11 +1904,11 @@ body{
             padding: 0 25px;
         }
         .services-panel--info__title{
-            font-size: 25px;
+            font-size: 23px;
             line-height: 35px;
         }
         .services-panel .collapse span, .services-panel .show span, .services-panel .services-panel--info__text{
-            font-size: 18px;
+            font-size: 16px;
             line-height: 28px;
         }
         .services-panel{
@@ -1935,7 +1935,7 @@ body{
                         padding: 50px 0;
                         width: 100%;
                         &__title{
-                        font-size: 27px !important;
+                        font-size: 25px !important;
                         line-height: 37px !important;
                         margin-bottom: 20px !important;
                         }
@@ -1962,7 +1962,7 @@ body{
                 }
             }
             .bottom-text--title, .bottom-text--text{
-                font-size: 26px;
+                font-size: 24px;
                 line-height: 36px;
             }
         }
@@ -1976,11 +1976,11 @@ body{
             padding: 0 25px;
         }
         .protection-panel--info__title{
-            font-size: 25px;
+            font-size: 23px;
             line-height: 35px;
         }
         .protection-panel .collapse span, .protection-panel .show span, .protection-panel .protection-panel--info__text{
-            font-size: 18px;
+            font-size: 16px;
             line-height: 28px;
         }
         .protection-panel{
@@ -2010,7 +2010,7 @@ body{
                         padding: 50px 0;
                         width: 100%;
                         &__title{
-                        font-size: 27px !important;
+                        font-size: 25px !important;
                         line-height: 37px !important;
                         margin-bottom: 20px !important;
                         }
@@ -2037,7 +2037,7 @@ body{
                 }
             }
             .bottom-text--title, .bottom-text--text{
-                font-size: 26px;
+                font-size: 24px;
                 line-height: 36px;
             }
         }
@@ -2051,11 +2051,11 @@ body{
             padding: 0 25px;
         }
         .benefits-panel--info__title{
-            font-size: 25px;
+            font-size: 23px;
             line-height: 35px;
         }
         .benefits-panel .collapse span, .benefits-panel .show span, .benefits-panel .benefits-panel--info__text{
-            font-size: 18px;
+            font-size: 16px;
             line-height: 28px;
         }
         .benefits-panel{
@@ -2083,7 +2083,7 @@ body{
             background: none;
             border: none;
             color: #fff;
-            font-size: 21px;
+            font-size: 19px;
             line-height: 31px;
             cursor: pointer;
         }
@@ -2093,7 +2093,7 @@ body{
         }
     }
     .main-header--nav-menu ul li a{
-        font-size: 14px;
+        font-size: 12px;
         padding: 10px 5px;
     }
     #home-bottom .bottom-text--img img{

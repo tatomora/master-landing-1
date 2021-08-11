@@ -12,8 +12,8 @@ body {
 }
 
 .collapsing {
-  font-size: 23px;
-  line-height: 27px;
+  font-size: 21px;
+  line-height: 25px;
   font-weight: 300;
 }
 
@@ -51,8 +51,8 @@ body {
   text-decoration: none;
   color: #fff;
   padding: 10px 15px;
-  font-size: 22px;
-  line-height: 25px;
+  font-size: 20px;
+  line-height: 23px;
   transition: all 0.5s;
   border: 2px solid #181818;
   border-radius: 20px;
@@ -88,13 +88,13 @@ body {
   max-width: 50%;
 }
 #home-top .card-wrapper .card-wrapper--textbox--group__title {
-  font-size: 37px;
-  line-height: 47px;
+  font-size: 35px;
+  line-height: 45px;
   margin-bottom: 40px;
 }
 #home-top .card-wrapper .card-wrapper--textbox--group__btn {
   background-color: #181818;
-  font-size: 24px;
+  font-size: 22px;
   padding: 5px 45px;
   font-weight: 300;
   color: #fff;
@@ -152,14 +152,14 @@ body {
   animation-duration: 2.5s;
 }
 #home-bottom .bottom-text--title {
-  font-size: 36px;
-  line-height: 43px;
+  font-size: 34px;
+  line-height: 41px;
   font-weight: 500;
   margin-bottom: 20px;
 }
 #home-bottom .bottom-text--text {
-  font-size: 35px;
-  line-height: 43px;
+  font-size: 33px;
+  line-height: 41px;
   font-weight: 200;
   margin-bottom: 20px;
 }
@@ -172,7 +172,7 @@ body {
 }
 #cities-slider .cities-slider--city--top {
   padding: 0 180px;
-  min-height: 670px;
+  min-height: 470px;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -194,7 +194,7 @@ body {
   max-height: 105px;
 }
 #cities-slider .cities-slider--city--top .cities-wrapper .cities-slider--city--top__title {
-  font-size: 96px;
+  font-size: 93px;
   text-transform: uppercase;
 }
 #cities-slider .cities-slider--city--top .cities-slider--arrows {
@@ -267,8 +267,8 @@ body {
   display: inline-block;
 }
 #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .card-title {
-  font-size: 38px;
-  line-height: 45px;
+  font-size: 36px;
+  line-height: 43px;
   font-weight: 500;
   margin-bottom: 65px;
   position: relative;
@@ -285,8 +285,8 @@ body {
   z-index: 1;
 }
 #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .card-text {
-  font-size: 23px;
-  line-height: 35px;
+  font-size: 21px;
+  line-height: 33px;
   font-weight: 300;
 }
 #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .back-top {
@@ -300,14 +300,14 @@ body {
 }
 #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .name {
   display: block;
-  font-size: 19px;
-  line-height: 28px;
+  font-size: 17px;
+  line-height: 26px;
   font-weight: 300;
 }
 #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .frace {
-  font-size: 23px;
+  font-size: 21px;
   font-weight: 500;
-  line-height: 32px;
+  line-height: 30px;
 }
 #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .last {
   padding-top: 0;
@@ -325,8 +325,8 @@ body {
 }
 #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .last .furnature .room {
   display: inline-block;
-  font-size: 19px;
-  line-height: 28px;
+  font-size: 17px;
+  line-height: 26px;
   font-weight: 300;
 }
 #cities-slider .cities-slider--city .city--new-york {
@@ -379,8 +379,8 @@ body {
   max-width: 50%;
 }
 #travel--top .travel-banner .travel-banner--box--group__title {
-  font-size: 51px;
-  line-height: 63px;
+  font-size: 49px;
+  line-height: 61px;
   margin-bottom: 40px;
   font-weight: 500;
 }
@@ -432,8 +432,8 @@ body {
   text-align: center;
 }
 #travel--mid .travel-panel .collapse span, #travel--mid .travel-panel .show span, #travel--mid .travel-panel .travel-panel--info__text {
-  font-size: 23px;
-  line-height: 27px;
+  font-size: 21px;
+  line-height: 25px;
   font-weight: 300;
 }
 #travel--mid .travel-panel .collapse {
@@ -470,8 +470,8 @@ body {
   min-height: 341px;
 }
 #travel--mid .travel-panel--info__title {
-  font-size: 38px;
-  line-height: 43px;
+  font-size: 36px;
+  line-height: 41px;
   font-weight: 500;
   margin-bottom: 40px;
   position: relative;
@@ -504,8 +504,8 @@ body {
   text-align: center;
 }
 #travel--bottom .travel-panel .collapse span, #travel--bottom .travel-panel .show span, #travel--bottom .travel-panel .travel-panel--info__text {
-  font-size: 23px;
-  line-height: 27px;
+  font-size: 21px;
+  line-height: 25px;
   font-weight: 300;
 }
 #travel--bottom .travel-panel .collapse {
@@ -543,8 +543,8 @@ body {
   min-height: 341px;
 }
 #travel--bottom .travel-panel--info__title {
-  font-size: 38px;
-  line-height: 43px;
+  font-size: 36px;
+  line-height: 41px;
   font-weight: 500;
   margin-bottom: 40px;
   position: relative;
@@ -592,8 +592,8 @@ body {
   max-width: 50%;
 }
 #services--top .services-banner .services-banner--box--group__title {
-  font-size: 51px;
-  line-height: 63px;
+  font-size: 49px;
+  line-height: 61px;
   margin-bottom: 40px;
   font-weight: 500;
 }
@@ -649,16 +649,16 @@ body {
   text-align: center;
 }
 #services--mid .services-panel .collapse span, #services--mid .services-panel .show span, #services--mid .services-panel .services-panel--info__text {
-  font-size: 23px;
-  line-height: 27px;
+  font-size: 21px;
+  line-height: 25px;
   font-weight: 300;
 }
 #services--mid .services-panel .collapse {
   border: none;
 }
 #services--mid .services-panel--info__title {
-  font-size: 38px;
-  line-height: 43px;
+  font-size: 36px;
+  line-height: 41px;
   font-weight: 500;
   margin-bottom: 40px;
   position: relative;
@@ -695,16 +695,16 @@ body {
   text-align: center;
 }
 #services--bottom .services-panel .collapse span, #services--bottom .services-panel .show span, #services--bottom .services-panel .services-panel--info__text {
-  font-size: 23px;
-  line-height: 27px;
+  font-size: 21px;
+  line-height: 25px;
   font-weight: 300;
 }
 #services--bottom .services-panel .collapse {
   border: none;
 }
 #services--bottom .services-panel--info__title {
-  font-size: 38px;
-  line-height: 43px;
+  font-size: 36px;
+  line-height: 41px;
   font-weight: 500;
   margin-bottom: 40px;
   position: relative;
@@ -752,8 +752,8 @@ body {
   max-width: 50%;
 }
 #protection--top .protection-banner .protection-banner--box--group__title {
-  font-size: 51px;
-  line-height: 63px;
+  font-size: 49px;
+  line-height: 61px;
   margin-bottom: 40px;
   font-weight: 500;
 }
@@ -835,8 +835,8 @@ body {
   transform: rotate(180deg);
 }
 #protection--mid .protection-panel--info__title {
-  font-size: 38px;
-  line-height: 43px;
+  font-size: 36px;
+  line-height: 41px;
   font-weight: 500;
   margin-bottom: 40px;
   position: relative;
@@ -867,7 +867,7 @@ body {
   text-align: center;
 }
 #protection--bottom .protection-panel .collapse span, #protection--bottom .protection-panel .show span, #protection--bottom .protection-panel .protection-panel--info__text {
-  font-size: 23px;
+  font-size: 21px;
   line-height: 27px;
   font-weight: 300;
 }
@@ -906,7 +906,7 @@ body {
   min-height: 341px;
 }
 #protection--bottom .protection-panel--info__title {
-  font-size: 38px;
+  font-size: 36px;
   line-height: 43px;
   font-weight: 500;
   margin-bottom: 40px;
@@ -955,7 +955,7 @@ body {
   max-width: 50%;
 }
 #benefits--top .benefits-banner .benefits-banner--box--group__title {
-  font-size: 51px;
+  font-size: 49px;
   line-height: 63px;
   margin-bottom: 40px;
   font-weight: 500;
@@ -1005,7 +1005,7 @@ body {
   text-align: center;
 }
 #benefits--mid .benefits-panel .collapse span, #benefits--mid .benefits-panel .show span, #benefits--mid .benefits-panel .benefits-panel--info__text {
-  font-size: 23px;
+  font-size: 21px;
   line-height: 27px;
   font-weight: 300;
 }
@@ -1040,7 +1040,7 @@ body {
   transform: rotate(180deg);
 }
 #benefits--mid .benefits-panel--info__title {
-  font-size: 38px;
+  font-size: 36px;
   line-height: 43px;
   font-weight: 500;
   margin-bottom: 40px;
@@ -1074,7 +1074,7 @@ body {
   text-align: center;
 }
 #benefits--bottom .benefits-panel .collapse span, #benefits--bottom .benefits-panel .show span, #benefits--bottom .benefits-panel .benefits-panel--info__text {
-  font-size: 23px;
+  font-size: 21px;
   line-height: 27px;
   font-weight: 300;
 }
@@ -1082,7 +1082,7 @@ body {
   border: none;
 }
 #benefits--bottom .benefits-panel--info__title {
-  font-size: 38px;
+  font-size: 36px;
   line-height: 43px;
   font-weight: 500;
   margin-bottom: 40px;
@@ -1132,7 +1132,7 @@ body {
     background: none;
     border: none;
     color: #fff;
-    font-size: 21px;
+    font-size: 19px;
     line-height: 31px;
     cursor: pointer;
     float: right;
@@ -1167,7 +1167,7 @@ body {
     color: #fff;
     right: 20px;
     top: 20px;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 500;
   }
 
@@ -1192,7 +1192,7 @@ body {
     padding: 50px 0;
   }
   #home-top .card-wrapper--textbox--group__title {
-    font-size: 27px !important;
+    font-size: 25px !important;
     line-height: 37px !important;
     margin-bottom: 20px !important;
   }
@@ -1206,7 +1206,7 @@ body {
     top: -20px;
   }
   #home-bottom .bottom-text--title, #home-bottom .bottom-text--text {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 36px;
   }
 
@@ -1224,7 +1224,7 @@ body {
     max-width: 100%;
   }
   #cities #cities-slider .cities-slider--city--top .cities-wrapper .cities-slider--city--top__title {
-    font-size: 36px;
+    font-size: 34px;
   }
   #cities #cities-slider .cities-slider--city--top .cities-wrapper .cities-slider--city--top__icon img {
     max-height: 65px;
@@ -1256,7 +1256,7 @@ body {
   #cities #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .last .frace {
     margin-top: 30px;
     margin-bottom: 20px;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 30px;
   }
   #cities #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .last .furnature img {
@@ -1289,7 +1289,7 @@ body {
     width: 100%;
   }
   #travel--top .travel-banner--box--group__title {
-    font-size: 27px !important;
+    font-size: 25px !important;
     line-height: 37px !important;
     margin-bottom: 20px !important;
   }
@@ -1311,7 +1311,7 @@ body {
     top: -20px;
   }
   #travel--bottom .bottom-text--title, #travel--bottom .bottom-text--text {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 36px;
   }
   #travel .travel-panel--icon img {
@@ -1324,11 +1324,11 @@ body {
     padding: 0 25px;
   }
   #travel .travel-panel--info__title {
-    font-size: 25px;
+    font-size: 23px;
     line-height: 35px;
   }
   #travel .travel-panel .collapse span, #travel .travel-panel .show span, #travel .travel-panel .travel-panel--info__text {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
   }
   #travel .travel-panel {
@@ -1363,7 +1363,7 @@ body {
     width: 100%;
   }
   #services--top .services-banner--box--group__title {
-    font-size: 27px !important;
+    font-size: 25px !important;
     line-height: 37px !important;
     margin-bottom: 20px !important;
   }
@@ -1385,7 +1385,7 @@ body {
     top: -20px;
   }
   #services--bottom .bottom-text--title, #services--bottom .bottom-text--text {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 36px;
   }
   #services .services-panel--icon img {
@@ -1398,11 +1398,11 @@ body {
     padding: 0 25px;
   }
   #services .services-panel--info__title {
-    font-size: 25px;
+    font-size: 23px;
     line-height: 35px;
   }
   #services .services-panel .collapse span, #services .services-panel .show span, #services .services-panel .services-panel--info__text {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
   }
   #services .services-panel {
@@ -1437,7 +1437,7 @@ body {
     width: 100%;
   }
   #protection--top .protection-banner--box--group__title {
-    font-size: 27px !important;
+    font-size: 25px !important;
     line-height: 37px !important;
     margin-bottom: 20px !important;
   }
@@ -1460,7 +1460,7 @@ body {
     top: -20px;
   }
   #protection--bottom .bottom-text--title, #protection--bottom .bottom-text--text {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 36px;
   }
   #protection .protection-panel--icon img {
@@ -1473,11 +1473,11 @@ body {
     padding: 0 25px;
   }
   #protection .protection-panel--info__title {
-    font-size: 25px;
+    font-size: 23px;
     line-height: 35px;
   }
   #protection .protection-panel .collapse span, #protection .protection-panel .show span, #protection .protection-panel .protection-panel--info__text {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
   }
   #protection .protection-panel {
@@ -1519,7 +1519,7 @@ body {
     width: 100%;
   }
   #benefits--top .benefits-banner--box--group__title {
-    font-size: 27px !important;
+    font-size: 25px !important;
     line-height: 37px !important;
     margin-bottom: 20px !important;
   }
@@ -1542,7 +1542,7 @@ body {
     top: -20px;
   }
   #benefits--bottom .bottom-text--title, #benefits--bottom .bottom-text--text {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 36px;
   }
   #benefits .benefits-panel--icon img {
@@ -1555,11 +1555,11 @@ body {
     padding: 0 25px;
   }
   #benefits .benefits-panel--info__title {
-    font-size: 25px;
+    font-size: 23px;
     line-height: 35px;
   }
   #benefits .benefits-panel .collapse span, #benefits .benefits-panel .show span, #benefits .benefits-panel .benefits-panel--info__text {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
   }
   #benefits .benefits-panel {
@@ -1586,7 +1586,7 @@ body {
     background: none;
     border: none;
     color: #fff;
-    font-size: 21px;
+    font-size: 19px;
     line-height: 31px;
     cursor: pointer;
   }
@@ -1596,7 +1596,7 @@ body {
   }
 
   .main-header--nav-menu ul li a {
-    font-size: 14px;
+    font-size: 12px;
     padding: 10px 5px;
   }
 
@@ -1621,7 +1621,7 @@ body {
     padding: 50px 0;
   }
   #home-top .card-wrapper--textbox--group__title {
-    font-size: 27px !important;
+    font-size: 25px !important;
     line-height: 37px !important;
     margin-bottom: 20px !important;
   }
@@ -1635,7 +1635,7 @@ body {
     top: -20px;
   }
   #home-bottom .bottom-text--title, #home-bottom .bottom-text--text {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 36px;
   }
 
@@ -1653,7 +1653,7 @@ body {
     max-width: 100%;
   }
   #cities #cities-slider .cities-slider--city--top .cities-wrapper .cities-slider--city--top__title {
-    font-size: 36px;
+    font-size: 34px;
   }
   #cities #cities-slider .cities-slider--city--top .cities-wrapper .cities-slider--city--top__icon img {
     max-height: 65px;
@@ -1686,12 +1686,12 @@ body {
     min-height: 140px;
   }
   #cities #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .frace {
-    font-size: 17px;
+    font-size: 15px;
   }
   #cities #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .last .frace {
     margin-top: 30px;
     margin-bottom: 20px;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 30px;
   }
   #cities #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .last .furnature img {
@@ -1724,7 +1724,7 @@ body {
     width: 100%;
   }
   #travel--top .travel-banner--box--group__title {
-    font-size: 27px !important;
+    font-size: 25px !important;
     line-height: 37px !important;
     margin-bottom: 20px !important;
   }
@@ -1747,7 +1747,7 @@ body {
     top: -20px;
   }
   #travel--bottom .bottom-text--title, #travel--bottom .bottom-text--text {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 36px;
   }
   #travel .travel-panel--icon img {
@@ -1760,11 +1760,11 @@ body {
     padding: 0 25px;
   }
   #travel .travel-panel--info__title {
-    font-size: 25px;
+    font-size: 23px;
     line-height: 35px;
   }
   #travel .travel-panel .collapse span, #travel .travel-panel .show span, #travel .travel-panel .travel-panel--info__text {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
   }
   #travel .travel-panel {
@@ -1794,7 +1794,7 @@ body {
     width: 100%;
   }
   #services--top .services-banner--box--group__title {
-    font-size: 27px !important;
+    font-size: 25px !important;
     line-height: 37px !important;
     margin-bottom: 20px !important;
   }
@@ -1816,7 +1816,7 @@ body {
     top: -20px;
   }
   #services--bottom .bottom-text--title, #services--bottom .bottom-text--text {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 36px;
   }
   #services .services-panel--icon img {
@@ -1829,11 +1829,11 @@ body {
     padding: 0 25px;
   }
   #services .services-panel--info__title {
-    font-size: 25px;
+    font-size: 23px;
     line-height: 35px;
   }
   #services .services-panel .collapse span, #services .services-panel .show span, #services .services-panel .services-panel--info__text {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
   }
   #services .services-panel {
@@ -1863,7 +1863,7 @@ body {
     width: 100%;
   }
   #protection--top .protection-banner--box--group__title {
-    font-size: 27px !important;
+    font-size: 25px !important;
     line-height: 37px !important;
     margin-bottom: 20px !important;
   }
@@ -1885,7 +1885,7 @@ body {
     top: -20px;
   }
   #protection--bottom .bottom-text--title, #protection--bottom .bottom-text--text {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 36px;
   }
   #protection .protection-panel--icon img {
@@ -1898,11 +1898,11 @@ body {
     padding: 0 25px;
   }
   #protection .protection-panel--info__title {
-    font-size: 25px;
+    font-size: 23px;
     line-height: 35px;
   }
   #protection .protection-panel .collapse span, #protection .protection-panel .show span, #protection .protection-panel .protection-panel--info__text {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
   }
   #protection .protection-panel {
@@ -1935,7 +1935,7 @@ body {
     width: 100%;
   }
   #benefits--top .benefits-banner--box--group__title {
-    font-size: 27px !important;
+    font-size: 25px !important;
     line-height: 37px !important;
     margin-bottom: 20px !important;
   }
@@ -1957,7 +1957,7 @@ body {
     top: -20px;
   }
   #benefits--bottom .bottom-text--title, #benefits--bottom .bottom-text--text {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 36px;
   }
   #benefits .benefits-panel--icon img {
@@ -1970,11 +1970,11 @@ body {
     padding: 0 25px;
   }
   #benefits .benefits-panel--info__title {
-    font-size: 25px;
+    font-size: 23px;
     line-height: 35px;
   }
   #benefits .benefits-panel .collapse span, #benefits .benefits-panel .show span, #benefits .benefits-panel .benefits-panel--info__text {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
   }
   #benefits .benefits-panel {
@@ -2001,7 +2001,7 @@ body {
     background: none;
     border: none;
     color: #fff;
-    font-size: 21px;
+    font-size: 19px;
     line-height: 31px;
     cursor: pointer;
   }
@@ -2011,7 +2011,7 @@ body {
   }
 
   .main-header--nav-menu ul li a {
-    font-size: 14px;
+    font-size: 12px;
     padding: 10px 5px;
   }
 

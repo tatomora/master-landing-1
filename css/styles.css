@@ -62,6 +62,10 @@ body {
   border-color: #fff;
   background-color: #3a3a3a;
 }
+.main-header--nav-menu ul li .active {
+  border-color: #fff;
+  background-color: #3a3a3a;
+}
 
 /* Home first section */
 #home-top {

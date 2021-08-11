@@ -202,6 +202,7 @@ body {
   width: 100%;
   left: 0;
   top: 50%;
+  padding: 0 80px;
 }
 #cities-slider .cities-slider--city--top .cities-slider--arrows .arrow {
   display: inline-block;
@@ -216,7 +217,7 @@ body {
 #cities-slider .cities-slider--city--bottom {
   background-color: #181818;
   color: #fff;
-  padding-top: 100px;
+  padding-top: 80px;
   max-height: 530px;
 }
 #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .card-inner {
@@ -2025,6 +2026,14 @@ body {
 
   #home-top {
     max-height: 550px;
+  }
+
+  #travel--top .travel-banner {
+    min-height: 420px;
+  }
+
+  #travel .travel-panel--icon img {
+    max-height: 150px;
   }
 }
 

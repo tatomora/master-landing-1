@@ -347,7 +347,7 @@ body {
 }
 
 #travel .travel-panel--icon img {
-  max-height: 200px;
+  max-height: 150px;
 }
 #travel a {
   font-weight: 500;
@@ -565,7 +565,7 @@ body {
 }
 
 #services .services-panel--icon img {
-  max-height: 200px;
+  max-height: 150px;
 }
 #services--top {
   max-height: 660px;
@@ -725,7 +725,7 @@ body {
 }
 
 #protection .protection-panel--icon img {
-  max-height: 200px;
+  max-height: 150px;
 }
 #protection--top {
   max-height: 660px;
@@ -928,7 +928,7 @@ body {
 }
 
 #benefits .benefits-panel--icon img {
-  max-height: 200px;
+  max-height: 150px;
 }
 #benefits--top {
   max-height: 660px;

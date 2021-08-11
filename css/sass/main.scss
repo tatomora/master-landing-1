@@ -1052,14 +1052,13 @@ body{
         padding-top: 180px;
         padding-bottom: 40px;
         .benefits-panel{
-            display: flex;
-            align-items: center;
+        
             margin-bottom: 40px;
             .col-3{
                 text-align: center;
             }
-            .collapse span, .show span, .benefits-panel--info__text{
-                font-size: 21px;
+            .collapse span, .show span, .protection-panel--info__text{
+                font-size: 23px;
                 line-height: 27px;
                 font-weight: 300;
             }
@@ -1096,9 +1095,10 @@ body{
                 }
             }
             &--info{
+                
                 &__title{
                     font-size: 36px;
-                    line-height: 43px;
+                    line-height: 41px;
                     font-weight: 500;
                     margin-bottom: 40px;
                     position: relative;
@@ -1125,13 +1125,11 @@ body{
         padding-top: 100px;
         padding-bottom: 40px;
         .benefits-panel{
-            display: flex;
-            align-items: center;
             margin-bottom: 40px;
             .col-3{
                 text-align: center;
             }
-            .collapse span, .show span, .benefits-panel--info__text{
+            .collapse span, .show span, .protection-panel--info__text{
                 font-size: 21px;
                 line-height: 27px;
                 font-weight: 300;
@@ -1139,7 +1137,38 @@ body{
             .collapse{
                 border: none;
             }
+            button{
+                border: none;
+                background-color: $main-color;
+                display: block;
+                position: relative;
+                text-align: center;
+                width: 100%;
+                transition: all .5s;
+                &:before{
+                    content: '';
+                    height: 10px;
+                    width: 80%;
+                    background-color: #3a3a3a;
+                    position: absolute;
+                    top: 40%;
+                    left: 10%;
+                    border-radius: 50px;
+                    z-index: 0;
+                }
+                &[aria-expanded="true"]{
+                    img{
+                        transform: rotate(180deg);
+                    }
+                }
+                img{
+                    max-height: 30px;
+                    position: relative;
+                    z-index: 1;
+                }
+            }
             &--info{
+                min-height: 341px;
                 &__title{
                     font-size: 36px;
                     line-height: 43px;

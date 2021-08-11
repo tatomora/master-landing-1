@@ -1005,15 +1005,13 @@ body {
   padding-bottom: 40px;
 }
 #benefits--mid .benefits-panel {
-  display: flex;
-  align-items: center;
   margin-bottom: 40px;
 }
 #benefits--mid .benefits-panel .col-3 {
   text-align: center;
 }
-#benefits--mid .benefits-panel .collapse span, #benefits--mid .benefits-panel .show span, #benefits--mid .benefits-panel .benefits-panel--info__text {
-  font-size: 21px;
+#benefits--mid .benefits-panel .collapse span, #benefits--mid .benefits-panel .show span, #benefits--mid .benefits-panel .protection-panel--info__text {
+  font-size: 23px;
   line-height: 27px;
   font-weight: 300;
 }
@@ -1049,7 +1047,7 @@ body {
 }
 #benefits--mid .benefits-panel--info__title {
   font-size: 36px;
-  line-height: 43px;
+  line-height: 41px;
   font-weight: 500;
   margin-bottom: 40px;
   position: relative;
@@ -1074,20 +1072,49 @@ body {
   padding-bottom: 40px;
 }
 #benefits--bottom .benefits-panel {
-  display: flex;
-  align-items: center;
   margin-bottom: 40px;
 }
 #benefits--bottom .benefits-panel .col-3 {
   text-align: center;
 }
-#benefits--bottom .benefits-panel .collapse span, #benefits--bottom .benefits-panel .show span, #benefits--bottom .benefits-panel .benefits-panel--info__text {
+#benefits--bottom .benefits-panel .collapse span, #benefits--bottom .benefits-panel .show span, #benefits--bottom .benefits-panel .protection-panel--info__text {
   font-size: 21px;
   line-height: 27px;
   font-weight: 300;
 }
 #benefits--bottom .benefits-panel .collapse {
   border: none;
+}
+#benefits--bottom .benefits-panel button {
+  border: none;
+  background-color: #181818;
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  transition: all 0.5s;
+}
+#benefits--bottom .benefits-panel button:before {
+  content: "";
+  height: 10px;
+  width: 80%;
+  background-color: #3a3a3a;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  border-radius: 50px;
+  z-index: 0;
+}
+#benefits--bottom .benefits-panel button[aria-expanded=true] img {
+  transform: rotate(180deg);
+}
+#benefits--bottom .benefits-panel button img {
+  max-height: 30px;
+  position: relative;
+  z-index: 1;
+}
+#benefits--bottom .benefits-panel--info {
+  min-height: 341px;
 }
 #benefits--bottom .benefits-panel--info__title {
   font-size: 36px;

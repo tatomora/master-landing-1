@@ -105,6 +105,10 @@ body{
                     background-color: #3a3a3a;
                     border-color: #fff;
                 }
+                a{
+                    text-decoration: none;
+                    color:#fff;
+                }
             }
             &--img{
                 position: absolute;
@@ -132,19 +136,19 @@ body{
                 }
                 #card1{
                     left: 30%;
-                    animation-duration: .5s;
+                    animation-duration: 1s;
                 }
                 #card2{
                     left: 20%;
-                    animation-duration: 1s;
+                    animation-duration: 1.5s;
                 }
                 #card3{
                     left: 15%;
-                    animation-duration: 1.5s;
+                    animation-duration: 2s;
                 }
                 #card4{
                     left: 5%;
-                    animation-duration: 2s;
+                    animation-duration: 2.5s;
                 }
             }
             &--title{

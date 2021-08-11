@@ -106,6 +106,10 @@ body {
   background-color: #3a3a3a;
   border-color: #fff;
 }
+#home-top .card-wrapper .card-wrapper--textbox--group__btn a {
+  text-decoration: none;
+  color: #fff;
+}
 #home-top .card-wrapper--img {
   position: absolute;
   left: 0;
@@ -133,19 +137,19 @@ body {
 }
 #home-bottom .bottom-text--img #card1 {
   left: 30%;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
 }
 #home-bottom .bottom-text--img #card2 {
   left: 20%;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
 }
 #home-bottom .bottom-text--img #card3 {
   left: 15%;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
 }
 #home-bottom .bottom-text--img #card4 {
   left: 5%;
-  animation-duration: 2s;
+  animation-duration: 2.5s;
 }
 #home-bottom .bottom-text--title {
   font-size: 36px;

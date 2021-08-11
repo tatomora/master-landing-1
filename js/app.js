@@ -80,3 +80,29 @@ const toggleMobileMenu = (item) => {
 toggleMobileMenu(mobileMenuBtn);
 toggleMobileMenu(mobileMenuItem);
 toggleMobileMenu(mobileMenuClose);
+
+// scroll animation
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        const card1 = entry.target.querySelector("#card1");
+        const card2 = entry.target.querySelector("#card2");
+        const card3 = entry.target.querySelector("#card3");
+        const card4 = entry.target.querySelector("#card4");
+
+        if (entry.isIntersecting) {
+            card1.classList.add("animate__slideInLeft");
+            card2.classList.add("animate__slideInLeft");
+            card3.classList.add("animate__slideInLeft");
+            card4.classList.add("animate__slideInLeft");
+            return; // if we added the class, exit the function
+        }
+
+        // We're not intersecting, so remove the class!
+        card1.classList.remove("animate__slideInLeft");
+        card2.classList.remove("animate__slideInLeft");
+        card3.classList.remove("animate__slideInLeft");
+        card4.classList.remove("animate__slideInLeft");
+    });
+});
+
+observer.observe(document.querySelector(".bottom-text--img"));

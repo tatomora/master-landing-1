@@ -471,7 +471,7 @@ body {
   transform: rotate(0deg);
 }
 #travel--mid .travel-panel button img {
-  max-height: 50px;
+  max-height: 30px;
   transform: rotate(180deg);
 }
 #travel--mid .travel-panel--info {
@@ -543,7 +543,7 @@ body {
   transform: rotate(180deg);
 }
 #travel--bottom .travel-panel button img {
-  max-height: 50px;
+  max-height: 30px;
   position: relative;
   z-index: 1;
 }
@@ -575,13 +575,13 @@ body {
   max-height: 150px;
 }
 #services--top {
-  max-height: 660px;
+  max-height: 460px;
   background: #181818;
   position: relative;
   padding-top: 20px;
 }
 #services--top .services-banner {
-  min-height: 720px;
+  min-height: 520px;
   background-image: url("https://jesusquev3311.github.io/master-landing/img/services-bg.png");
   background-position: center;
   background-size: cover;
@@ -735,13 +735,13 @@ body {
   max-height: 150px;
 }
 #protection--top {
-  max-height: 660px;
+  max-height: 460px;
   background: #181818;
   position: relative;
   padding-top: 20px;
 }
 #protection--top .protection-banner {
-  min-height: 720px;
+  min-height: 520px;
   background-image: url("https://jesusquev3311.github.io/master-landing/img/protection.png");
   background-position: center;
   background-size: cover;
@@ -839,7 +839,7 @@ body {
   transform: rotate(0deg);
 }
 #protection--mid .protection-panel button img {
-  max-height: 50px;
+  max-height: 30px;
   transform: rotate(180deg);
 }
 #protection--mid .protection-panel--info__title {
@@ -906,7 +906,7 @@ body {
   transform: rotate(180deg);
 }
 #protection--bottom .protection-panel button img {
-  max-height: 50px;
+  max-height: 30px;
   position: relative;
   z-index: 1;
 }
@@ -1044,7 +1044,7 @@ body {
   transform: rotate(0deg);
 }
 #benefits--mid .benefits-panel button img {
-  max-height: 50px;
+  max-height: 30px;
   transform: rotate(180deg);
 }
 #benefits--mid .benefits-panel--info__title {

@@ -491,7 +491,7 @@ body{
                     }
                 }
                 img{
-                    max-height: 50px;
+                    max-height: 30px;
                     transform: rotate(180deg);
                 }
             }
@@ -565,7 +565,7 @@ body{
                     }
                 }
                 img{
-                    max-height: 50px;
+                    max-height: 30px;
                     position: relative;
                     z-index: 1;
                 }
@@ -603,12 +603,12 @@ body{
         }
     }
     &--top{
-        max-height: 660px;
+        max-height: 460px;
         background: $main-color;
         position: relative;
         padding-top: 20px;
         .services-banner{
-            min-height: 720px;
+            min-height: 520px;
             background-image: url("https://jesusquev3311.github.io/master-landing/img/services-bg.png");
             background-position: center;
             background-size: cover;
@@ -772,12 +772,12 @@ body{
         }
     }
     &--top{
-        max-height: 660px;
+        max-height: 460px;
         background: $main-color;
         position: relative;
         padding-top: 20px;
         .protection-banner{
-            min-height: 720px;
+            min-height: 520px;
             background-image: url("https://jesusquev3311.github.io/master-landing/img/protection.png");
             background-position: center;
             background-size: cover;
@@ -876,7 +876,7 @@ body{
                     }
                 }
                 img{
-                    max-height: 50px;
+                    max-height: 30px;
                     transform: rotate(180deg);
                 }
             }
@@ -948,7 +948,7 @@ body{
                     }
                 }
                 img{
-                    max-height: 50px;
+                    max-height: 30px;
                     position: relative;
                     z-index: 1;
                 }
@@ -1091,7 +1091,7 @@ body{
                     }
                 }
                 img{
-                    max-height: 50px;
+                    max-height: 30px;
                     transform: rotate(180deg);
                 }
             }

@@ -168,6 +168,11 @@ body{
 }
 /*Cities slider*/
 #cities-slider{
+    .card-back-text{
+        a{
+            color: #fff;
+        }
+    }
     .cities-slider--city{
         position: relative;
         text-align: right;

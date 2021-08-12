@@ -1224,7 +1224,7 @@ body {
     text-align: center;
   }
   #home-top .card-wrapper--textbox--group {
-    padding: 50px 0;
+    padding: 50px 10px;
   }
   #home-top .card-wrapper--textbox--group__title {
     font-size: 25px !important;
@@ -1660,7 +1660,7 @@ body {
     text-align: center;
   }
   #home-top .card-wrapper--textbox--group {
-    padding: 50px 0;
+    padding: 50px 10px;
   }
   #home-top .card-wrapper--textbox--group__title {
     font-size: 25px !important;

@@ -106,6 +106,10 @@ $(document).ready(() => {
     });
 
     observer.observe(document.querySelector(".bottom-text--img"));
+    observer.observe(document.querySelector("#travel .bottom-text--img"));
+    observer.observe(document.querySelector("#services .bottom-text--img"));
+    observer.observe(document.querySelector("#protection .bottom-text--img"));
+    observer.observe(document.querySelector("#benefits .bottom-text--img"));
 
     // active class for menu
 

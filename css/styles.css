@@ -250,6 +250,7 @@ body {
 }
 #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .card-inner .card-front-text {
   background-color: #262a2b;
+  z-index: 1;
 }
 #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .card-inner .card-back-text {
   -webkit-transform: rotateY(-180deg);

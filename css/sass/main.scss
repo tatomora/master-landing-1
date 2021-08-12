@@ -255,6 +255,7 @@ body{
 
                     .card-front-text{
                         background-color: $box-color;
+                        z-index: 1;
                     }
                     .card-back-text{
                         -webkit-transform: rotateY(-180deg);

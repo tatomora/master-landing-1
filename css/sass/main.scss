@@ -583,7 +583,7 @@ body{
                         content: '';
                         height: 1px;
                         width: 118px;
-                        background-color: $main-color;
+                        background-color: #fff;
                         position: absolute;
                         left: 0;
                         bottom: -20px;
@@ -752,7 +752,7 @@ body{
                         content: '';
                         height: 1px;
                         width: 118px;
-                        background-color: $main-color;
+                        background-color: #fff;
                         position: absolute;
                         left: 0;
                         bottom: -20px;
@@ -966,7 +966,7 @@ body{
                         content: '';
                         height: 1px;
                         width: 118px;
-                        background-color: $main-color;
+                        background-color: #fff;
                         position: absolute;
                         left: 0;
                         bottom: -20px;
@@ -1180,7 +1180,7 @@ body{
                         content: '';
                         height: 1px;
                         width: 118px;
-                        background-color: $main-color;
+                        background-color: #fff;
                         position: absolute;
                         left: 0;
                         bottom: -20px;
@@ -1198,11 +1198,13 @@ body{
 
 .footer{
     text-align: center;
-    padding-top: 180px;
-    padding-bottom: 80px;
+    padding: 60px 0;
     background-image: url('https://jesusquev3311.github.io/master-landing/img/footer-bg.png');
     background-position: center;
     background-size: cover;
+}
+.cities-footer.footer{
+    padding-top: 180px;
 }
 .menu-on{
     right: 0 !important;
@@ -1213,6 +1215,8 @@ body{
     body{
         padding-top: 100px;
     }
+    .cities-footer.footer{padding-top: 60px;}
+    
     .main-header{
         padding-left: 30px;
         .container-fluid{
@@ -1359,7 +1363,11 @@ body{
         #cities-slider .cities-slider--city--top .cities-slider--arrows{
             padding: 0 30px;
         }
+        .other-cities{
+            font-size: 24px !important;
+        }
     }
+
 
     #travel{
         .container-fluid{padding: 0;}

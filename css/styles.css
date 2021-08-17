@@ -562,7 +562,7 @@ body {
   content: "";
   height: 1px;
   width: 118px;
-  background-color: #181818;
+  background-color: #fff;
   position: absolute;
   left: 0;
   bottom: -20px;
@@ -722,7 +722,7 @@ body {
   content: "";
   height: 1px;
   width: 118px;
-  background-color: #181818;
+  background-color: #fff;
   position: absolute;
   left: 0;
   bottom: -20px;
@@ -925,7 +925,7 @@ body {
   content: "";
   height: 1px;
   width: 118px;
-  background-color: #181818;
+  background-color: #fff;
   position: absolute;
   left: 0;
   bottom: -20px;
@@ -1128,7 +1128,7 @@ body {
   content: "";
   height: 1px;
   width: 118px;
-  background-color: #181818;
+  background-color: #fff;
   position: absolute;
   left: 0;
   bottom: -20px;
@@ -1140,11 +1140,14 @@ body {
 
 .footer {
   text-align: center;
-  padding-top: 180px;
-  padding-bottom: 80px;
+  padding: 60px 0;
   background-image: url("https://jesusquev3311.github.io/master-landing/img/footer-bg.png");
   background-position: center;
   background-size: cover;
+}
+
+.cities-footer.footer {
+  padding-top: 180px;
 }
 
 .menu-on {
@@ -1156,6 +1159,10 @@ body {
 @media only screen and (max-width: 600px) {
   body {
     padding-top: 100px;
+  }
+
+  .cities-footer.footer {
+    padding-top: 60px;
   }
 
   .main-header {
@@ -1303,6 +1310,9 @@ body {
   }
   #cities #cities-slider .cities-slider--city--top .cities-slider--arrows {
     padding: 0 30px;
+  }
+  #cities .other-cities {
+    font-size: 24px !important;
   }
 
   #travel .container-fluid {

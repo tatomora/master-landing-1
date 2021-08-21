@@ -119,3 +119,36 @@ $(document).ready(() => {
         $(this).addClass("active");
     });
 });
+
+// scrollSpy function
+function scrollSpy() {
+    const sections = ["home", "travel", "services", "protection", "benefits"];
+    let current;
+
+    for (let i = 0; i < sections.length; i++) {
+        if ($(`#${sections[i]}`).offset().top <= $(window).scrollTop()) {
+            current = sections[i];
+        }
+    }
+
+    $(`.main-header--nav-menu a[href='#${current}']`).addClass("active");
+    $(".main-header--nav-menu a").not(`a[href='#${current}']`).removeClass("active");
+}
+
+// smooth scrolling navigation
+$(".main-header--nav-menu a").click(function () {
+    const target = $(this).attr("href");
+    $("body, html").animate({
+        scrollTop: $(target).offset().top,
+    }, 0);
+    return false;
+});
+
+// scrollSpy call
+$(document).ready(() => {
+    scrollSpy();
+});
+
+$(window).scroll(() => {
+    scrollSpy();
+});

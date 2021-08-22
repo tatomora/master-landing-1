@@ -175,6 +175,33 @@ body{
     .card-back-text{
         a{
             color: #fff;
+            &.more-btn{
+                position: absolute;
+                padding: 10px 60px;
+                border-radius: 25px;
+                bottom: 30px;
+                left: 30%;
+                font-size: 21px;
+                line-height: 31px;
+                font-weight: 300;
+                text-transform: capitalize;
+                text-decoration: none;
+                background-color: #fff;
+                color: $main-color;
+            }
+        }
+    }
+    .card-front-text{
+        button{
+            position: absolute;
+            padding: 10px 70px;
+            border-radius: 25px;
+            bottom: 30px;
+            left: 30%;
+            font-size: 21px;
+            line-height: 31px;
+            font-weight: 300;
+            text-transform: capitalize;
         }
     }
     .cities-slider--city{
@@ -1365,6 +1392,15 @@ body{
         }
         .other-cities{
             font-size: 24px !important;
+        }
+        #cities-slider .card-front-text button, #cities-slider .card-back-text a{
+            font-size: 18px;
+            padding: 5px 60px;
+            bottom: 20px;
+            left: 25%;
+        }
+        #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .card-text{
+            font-size: 18px;
         }
     }
 

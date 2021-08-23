@@ -11,6 +11,10 @@ body {
   padding-top: 143px;
 }
 
+b {
+  font-weight: 700;
+}
+
 .collapsing {
   font-size: 21px;
   line-height: 25px;

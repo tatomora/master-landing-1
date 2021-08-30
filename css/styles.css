@@ -39,6 +39,9 @@ b {
 .main-header .row {
   align-items: center;
 }
+.main-header__logo img {
+  max-height: 110px;
+}
 .main-header--nav-menu {
   display: flex;
   justify-content: flex-end;
@@ -139,20 +142,20 @@ b {
   min-height: 250px;
 }
 #home-bottom .bottom-text--img img {
-  max-height: 385px;
+  max-height: 245px;
   position: absolute;
   bottom: 0;
 }
 #home-bottom .bottom-text--img #card1 {
-  left: 30%;
+  left: 74%;
   animation-duration: 1s;
 }
 #home-bottom .bottom-text--img #card2 {
-  left: 20%;
+  left: 51%;
   animation-duration: 1.5s;
 }
 #home-bottom .bottom-text--img #card3 {
-  left: 15%;
+  left: 28%;
   animation-duration: 2s;
 }
 #home-bottom .bottom-text--img #card4 {
@@ -381,6 +384,7 @@ b {
 }
 #cities-slider .cities-footer--logo img {
   margin: 0 auto;
+  max-height: 100px;
 }
 
 #travel .travel-panel--icon img {
@@ -468,6 +472,7 @@ b {
 }
 #travel--mid .travel-panel .col-3 {
   text-align: center;
+  max-width: 516px;
 }
 #travel--mid .travel-panel .collapse span, #travel--mid .travel-panel .show span, #travel--mid .travel-panel .travel-panel--info__text {
   font-size: 21px;
@@ -540,6 +545,7 @@ b {
 }
 #travel--bottom .travel-panel .col-3 {
   text-align: center;
+  max-width: 516px;
 }
 #travel--bottom .travel-panel .collapse span, #travel--bottom .travel-panel .show span, #travel--bottom .travel-panel .travel-panel--info__text {
   font-size: 21px;
@@ -685,6 +691,7 @@ b {
 }
 #services--mid .services-panel .col-3 {
   text-align: center;
+  max-width: 516px;
 }
 #services--mid .services-panel .collapse span, #services--mid .services-panel .show span, #services--mid .services-panel .services-panel--info__text {
   font-size: 21px;
@@ -731,6 +738,7 @@ b {
 }
 #services--bottom .services-panel .col-3 {
   text-align: center;
+  max-width: 516px;
 }
 #services--bottom .services-panel .collapse span, #services--bottom .services-panel .show span, #services--bottom .services-panel .services-panel--info__text {
   font-size: 21px;
@@ -836,6 +844,7 @@ b {
 }
 #protection--mid .protection-panel .col-3 {
   text-align: center;
+  max-width: 516px;
 }
 #protection--mid .protection-panel .collapse span, #protection--mid .protection-panel .show span, #protection--mid .protection-panel .protection-panel--info__text {
   font-size: 23px;
@@ -903,6 +912,7 @@ b {
 }
 #protection--bottom .protection-panel .col-3 {
   text-align: center;
+  max-width: 516px;
 }
 #protection--bottom .protection-panel .collapse span, #protection--bottom .protection-panel .show span, #protection--bottom .protection-panel .protection-panel--info__text {
   font-size: 21px;
@@ -1039,6 +1049,7 @@ b {
 }
 #benefits--mid .benefits-panel .col-3 {
   text-align: center;
+  max-width: 516px;
 }
 #benefits--mid .benefits-panel .collapse span, #benefits--mid .benefits-panel .show span, #benefits--mid .benefits-panel .protection-panel--info__text {
   font-size: 23px;
@@ -1106,6 +1117,7 @@ b {
 }
 #benefits--bottom .benefits-panel .col-3 {
   text-align: center;
+  max-width: 516px;
 }
 #benefits--bottom .benefits-panel .collapse span, #benefits--bottom .benefits-panel .show span, #benefits--bottom .benefits-panel .protection-panel--info__text {
   font-size: 21px;
@@ -1164,6 +1176,72 @@ b {
   opacity: 0.5;
 }
 #benefits--bottom .benefits-panel--info__text {
+  margin-bottom: 40px;
+}
+#benefits--bottom--white {
+  padding-top: 180px;
+  padding-bottom: 40px;
+}
+#benefits--bottom--white .benefits-panel {
+  margin-bottom: 40px;
+}
+#benefits--bottom--white .benefits-panel .col-3 {
+  text-align: center;
+  max-width: 516px;
+}
+#benefits--bottom--white .benefits-panel .collapse span, #benefits--bottom--white .benefits-panel .show span, #benefits--bottom--white .benefits-panel .protection-panel--info__text {
+  font-size: 23px;
+  line-height: 27px;
+  font-weight: 300;
+}
+#benefits--bottom--white .benefits-panel .collapse {
+  border: none;
+}
+#benefits--bottom--white .benefits-panel button {
+  border: none;
+  background-color: #fff;
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  transition: all 0.5s;
+}
+#benefits--bottom--white .benefits-panel button:before {
+  content: "";
+  height: 10px;
+  width: 80%;
+  background-color: #181818;
+  opacity: 0.1;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  border-radius: 50px;
+}
+#benefits--bottom--white .benefits-panel button[aria-expanded=true] img {
+  transform: rotate(0deg);
+}
+#benefits--bottom--white .benefits-panel button img {
+  max-height: 30px;
+  transform: rotate(180deg);
+}
+#benefits--bottom--white .benefits-panel--info__title {
+  font-size: 36px;
+  line-height: 41px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  position: relative;
+}
+#benefits--bottom--white .benefits-panel--info__title:after {
+  content: "";
+  height: 1px;
+  width: 118px;
+  background-color: #181818;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  opacity: 0.5;
+}
+#benefits--bottom--white .benefits-panel--info__text {
   margin-bottom: 40px;
 }
 

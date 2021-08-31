@@ -387,12 +387,16 @@ b {
   max-height: 100px;
 }
 
+.cities-footer--logo img{
+  max-height: 100px;
+}
+
 #travel .travel-panel--icon img {
   max-height: 150px;
 }
 #travel a {
   font-weight: 500;
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 #travel--top {
@@ -443,20 +447,20 @@ b {
   bottom: 0;
 }
 #travel--top .bottom-text--img #card1 {
-  left: 30%;
-  animation-duration: 0.5s;
-}
-#travel--top .bottom-text--img #card2 {
-  left: 20%;
+  left: 74%;
   animation-duration: 1s;
 }
-#travel--top .bottom-text--img #card3 {
-  left: 15%;
+#travel--top .bottom-text--img #card2 {
+  left: 51%;
   animation-duration: 1.5s;
+}
+#travel--top .bottom-text--img #card3 {
+  left: 28%;
+  animation-duration: 2s;
 }
 #travel--top .bottom-text--img #card4 {
   left: 5%;
-  animation-duration: 2s;
+  animation-duration: 2.5s;
 }
 #travel--mid {
   padding-top: 180px;
@@ -658,20 +662,20 @@ b {
   bottom: 0;
 }
 #services--top .bottom-text--img #card1 {
-  left: 30%;
-  animation-duration: 0.5s;
-}
-#services--top .bottom-text--img #card2 {
-  left: 20%;
+  left: 74%;
   animation-duration: 1s;
 }
-#services--top .bottom-text--img #card3 {
-  left: 15%;
+#services--top .bottom-text--img #card2 {
+  left: 51%;
   animation-duration: 1.5s;
+}
+#services--top .bottom-text--img #card3 {
+  left: 28%;
+  animation-duration: 2s;
 }
 #services--top .bottom-text--img #card4 {
   left: 5%;
-  animation-duration: 2s;
+  animation-duration: 2.5s;
 }
 #services--mid {
   padding-top: 180px;
@@ -820,20 +824,20 @@ b {
   bottom: 0;
 }
 #protection--top .bottom-text--img #card1 {
-  left: 30%;
-  animation-duration: 0.5s;
-}
-#protection--top .bottom-text--img #card2 {
-  left: 20%;
+  left: 74%;
   animation-duration: 1s;
 }
-#protection--top .bottom-text--img #card3 {
-  left: 15%;
+#protection--top .bottom-text--img #card2 {
+  left: 51%;
   animation-duration: 1.5s;
+}
+#protection--top .bottom-text--img #card3 {
+  left: 28%;
+  animation-duration: 2s;
 }
 #protection--top .bottom-text--img #card4 {
   left: 5%;
-  animation-duration: 2s;
+  animation-duration: 2.5s;
 }
 #protection--mid {
   padding-top: 180px;
@@ -1025,20 +1029,20 @@ b {
   bottom: 0;
 }
 #benefits--top .bottom-text--img #card1 {
-  left: 30%;
-  animation-duration: 0.5s;
-}
-#benefits--top .bottom-text--img #card2 {
-  left: 20%;
+  left: 74%;
   animation-duration: 1s;
 }
-#benefits--top .bottom-text--img #card3 {
-  left: 15%;
+#benefits--top .bottom-text--img #card2 {
+  left: 51%;
   animation-duration: 1.5s;
+}
+#benefits--top .bottom-text--img #card3 {
+  left: 28%;
+  animation-duration: 2s;
 }
 #benefits--top .bottom-text--img #card4 {
   left: 5%;
-  animation-duration: 2s;
+  animation-duration: 2.5s;
 }
 #benefits--mid {
   padding-top: 180px;
@@ -1268,6 +1272,17 @@ b {
     padding-top: 100px;
   }
 
+  #cities-slider .cities-footer--logo img {
+    margin: 0 auto;
+    max-height: 50px;
+    width: 100%;
+}
+
+.cities-footer--logo img {
+  margin: 0 auto;
+  max-height: 50px;
+  width: 100%;
+}
   .cities-footer.footer {
     padding-top: 60px;
   }
@@ -1351,7 +1366,7 @@ b {
     min-height: 110px;
   }
   #home-bottom .bottom-text--img img {
-    max-width: 40%;
+    max-width: 25%;
     position: absolute;
     top: -20px;
   }
@@ -1462,7 +1477,7 @@ b {
     min-height: 110px;
   }
   #travel--top .bottom-text--img img {
-    max-width: 40%;
+    max-width: 25%;
     position: absolute;
     top: -20px;
   }
@@ -1537,7 +1552,7 @@ b {
     min-height: 110px;
   }
   #services--top .bottom-text--img img {
-    max-width: 40%;
+    max-width: 25%;
     position: absolute;
     top: -20px;
   }
@@ -1613,7 +1628,7 @@ b {
     min-height: 110px;
   }
   #protection--top .bottom-text--img img {
-    max-width: 40%;
+    max-width: 25%;
     position: absolute;
     top: -20px;
   }
@@ -1696,7 +1711,7 @@ b {
     min-height: 110px;
   }
   #benefits--top .bottom-text--img img {
-    max-width: 40%;
+    max-width: 25%;
     position: absolute;
     top: -20px;
   }

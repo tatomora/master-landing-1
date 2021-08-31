@@ -203,6 +203,7 @@ b {
   line-height: 31px;
   font-weight: 300;
   text-transform: capitalize;
+  background-color: #fff;
 }
 #cities-slider .cities-slider--city {
   position: relative;

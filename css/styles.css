@@ -317,6 +317,7 @@ body {
   font-weight: 500;
   color: #fff;
   text-decoration: none;
+  word-break: break-all;
 }
 #travel--top {
   max-height: 660px;

@@ -1439,7 +1439,7 @@ b {
   }
   #cities #cities-slider .card-front-text button, #cities #cities-slider .card-back-text a {
     font-size: 18px;
-    padding: 5px 60px;
+    //padding: 5px 60px;
     bottom: 20px;
     left: 25%;
   }

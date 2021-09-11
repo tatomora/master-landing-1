@@ -396,9 +396,8 @@ b {
   max-height: 150px;
 }
 #travel a {
-  font-weight: 500;
   color: #000;
-  text-decoration: none;
+  text-decoration: underline;
 }
 #travel--top {
   max-height: 660px;
@@ -2219,6 +2218,22 @@ b {
   #travel .travel-panel--icon img {
     max-height: 150px;
   }
+}
+
+.btn_muj{
+  background-color: #181818;
+    font-size: 15px;
+    padding: 5px 45px;
+    font-weight: 300;
+    color: #fff;
+    border: 2px solid #181818;
+    border-radius: 20px;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+.btn_muj:hover{
+    color: #fff;
 }
 
 /*# sourceMappingURL=styles.css.map */
